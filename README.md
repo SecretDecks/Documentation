@@ -13,4 +13,5 @@ SecretDecks® is a brand that is the seed catalysing a new kind of endeavour, ca
 
 ## Documentation Overview
 [1. Smart Contract Draft](https://github.com/SecretDecks/Documentation/blob/main/SmartContract-Drafts.md) 
+
 [2. Token Design Kickoff](https://github.com/SecretDecks/Documentation/blob/main/TokenDesign-Kickoff-Doc.md)
