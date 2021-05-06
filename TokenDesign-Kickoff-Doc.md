@@ -10,7 +10,8 @@ This document could form the start of the documentation towards an initial Token
 # Goal
 Create a **DAO like network for artists (AAO) An Autonomus Artist Organization (AAO)** that is able to do the following:
 - **curate artworks** in a decentralized and autonomus manner (via Token Curated Registry **[TCR]**) 
-- P2P creation of **digital collectibles** as well as **authentication and sale of (digital) artworks** (via Cardano NFT contracts)
+- P2P creation of **digital collectibles**  
+- **authentication** and **sale** of (digital) **artworks** (via Cardano NFT contracts)
 - **crowdfund** artists and artworks (via Cardano Smart Contracts)
 - **create & organize** digital (1st phase) / augmented (2nd phase) / virtual (3rd phase) **exhibitions** and **spaces (for renting or selling!)**
 
