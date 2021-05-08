@@ -13,15 +13,16 @@ Create a **DAO like network for artists - an Autonomus Artist Organization (AAO)
 - P2P creation of **digital collectibles**  
 - **authentication** and **sale** of (digital) **artworks** (via Cardano NFT contracts)
 - **crowdfund** artists and artworks (via Cardano Smart Contracts)
-- **create & organize** digital **exhibitions** and **spaces (for renting or selling!)** (1st phase)
-  - augmented (2nd phase)
-  - virtual (3rd phase)
+- **create & organize**: 
+  - **digital exhibitions** (1st phase)
+  - **virtual augmented** spaces & exhibitions (2nd phase)
+  - **virtual reality** spaces & exhibitions (3rd phase) (for renting or selling!)
 
 # Token Design Elements
 **TO DO** Define the following properties
 
 ## Actors
-Who will engage with the token? And when (in what phase/Stage)? Prosumers? Consumers? Businesses? Developers? Other third parties?
+Who will engage with the token? And when (in what phase/Stage)? Producers/Creators? Prosumers? Consumers? Businesses? Developers? Other third parties?
 
 ## Token Type
 What type of token is it? Does it provide access to a digital service? The right to contribute work to a network? The right to vote on governance decisions?
