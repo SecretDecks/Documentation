@@ -5,7 +5,7 @@ Documentation from seed to clone.
 You will soon find out.
 
 ## Why is SecretDecks®?
-SecretDecks® is a brand that is the seed catalysing a new kind of endeavour, called a Autonomus Artist Organization - AAO for short. 
+SecretDecks® is a brand that is the seed catalysing a new kind of endeavour, called a Autonomus Creator Organization / Autonomus Maker Organization  - ACO / AMO for short. 
 
 ### Social Media & Contact
 - [Twitter](https://twitter.com/SecretDecks)
