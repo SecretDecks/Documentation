@@ -1,6 +1,8 @@
 # Documentation
 Documentation from seed to clone.
 
+## [⏩Project Kanban Board⏪](https://github.com/SecretDecks/Documentation/projects/1)
+
 ## What is SecretDecks®?
 You will soon find out.
 
