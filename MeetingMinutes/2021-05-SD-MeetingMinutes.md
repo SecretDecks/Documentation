@@ -8,14 +8,14 @@ Heather, N4t, GL (remote), Giorgia (remote)
 - Votum: Taglline Read or Know Thyself?
 	- know 1
 	- read 2(+1)
-	- CHANGE TO READ THYSELF
+	- [x] CHANGE TO READ THYSELF
 - Article input/ffeback?
 - Votum: Autonomus Artist or Creator Organization
-	- Creator (y)
-	- 
+	- [x] Creator (y)
 - Intro (love feedback & help): Governance/Participation, processes to define: how to assure active participation of stakeholders? how to keep cost of participatipn and information gathering low? how to build expertise? how to vote?
 - open questions
-- Giorgia! - Call went well - Action item: prepare newsletter for Occultish
+- Giorgia! - Call went well - 
+- [ ] Action item: prepare newsletter for Occultish
 
 
 # Secret Decks Townhall Meeting 19th May 2021
@@ -24,13 +24,15 @@ Heather, N4t, GL (remote), Giorgia (remote)
 Heather, GL, Dan, N4t, Balu, Darius
 
 ## Agenda
--[] first content piece ready - Feedback?
-	- [feedback](https://github.com/SecretDecks/Contentwriting/discussions/5)
--[] discuss mindfulness policy!
--[] finish writing newsletter!
-- Github [Workflow](https://github.com/SecretDecks/Documentation/discussions/4)
-- [Contribution Survey](https://github.com/NFT-DAO/Governance-HOLON/discussions/96) - discuss if to implement!
 
+- [x] first content piece ready - Feedback?
+	- [feedback](https://github.com/SecretDecks/Contentwriting/discussions/5)
+- [ ] discuss mindfulness policy!
+- [ ] finish writing newsletter!
+- [x] Github [Workflow](https://github.com/SecretDecks/Documentation/discussions/4)
+- [ ] [Contribution Survey](https://github.com/NFT-DAO/Governance-HOLON/discussions/96) - discuss if to implement!
+
+## Discussions & Ideas
 - first artist agreed to collaborate! Alex TENIA , Ambra & the whales, Balu brought their decks, everyone loves em esp. Tenias.
 
 - whats the pro over selling on website? artist can sell **unique** digital pieces **directly** ! **(communicate this in marketing & newsletters!)**
