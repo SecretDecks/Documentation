@@ -16,5 +16,6 @@ SecretDecks® is a brand that is the seed catalysing a new kind of endeavour, ca
 
 [2. Token Design Kickoff](https://github.com/SecretDecks/Documentation/blob/main/TokenDesign-Kickoff-Doc.md)
 
-[3. Mindfulness Policy](https://github.com/DanM3rcurius/Documentation/blob/main/Mindfulness-Policy.md)
+[3. Mindfulness Policy](https://github.com/SecretDecks/Documentation/blob/main/Mindfulness-Policy.md)
 
+[4. Contribution Survey (Draft)](https://github.com/SecretDecks/Documentation/blob/main/Draft-DAO-Contribution-Survey.md)
