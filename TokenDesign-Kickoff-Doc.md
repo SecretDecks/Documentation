@@ -44,7 +44,7 @@ Are the tokens  tied to the value and development of the network? Are tokens lin
 What value is pegged to or infused within the token? What's the token facilitating?
 - project proposals
 - 
-- stage/miestone, funding approvals
+- stage/milestone, funding approvals
 - 
 
 ## Token's value capture
