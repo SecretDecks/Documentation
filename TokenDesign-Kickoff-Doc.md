@@ -30,6 +30,8 @@ Who will engage with the token? And when (in what phase/Stage)? Producers/Creato
 - fan
 - (lurker)
 - "newbie"
+- tarot reader / divinator
+- tarot inquirer
 
 ## Token Type
 What type of token is it? Does it provide access to a digital service? The right to contribute work to a network? The right to vote on governance decisions?
