@@ -26,6 +26,7 @@ Who will engage with the token? And when (in what phase/Stage)? Producers/Creato
 - creator ("artist")
 - collector
 - curator
+- patron (investor in crowdfunded art)
 - speculator
 - fan
 - (lurker)
@@ -39,8 +40,9 @@ What type of token is it? Does it provide access to a digital service? The right
 - reputation/ID & expertise building
 
 ## Network Value
-Are the tokens  tied to the value and development of the network? Are tokens linked to key interactions between network participants and the value exchanged over the network?
+Are the tokens  tied to the value and development of the network? Are tokens linked to key interactions between network participants and the value exchanged over the network? 
 - each artwork sale on platform takes a network fee of 0.5% - 1,5%
+- fee is destributed first towards maintaning network and secondly amongst token holders
 
 ## Token's value creation
 What value is pegged to or infused within the token? What's the token facilitating?
