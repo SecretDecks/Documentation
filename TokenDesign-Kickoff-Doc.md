@@ -26,6 +26,7 @@ Who will engage with the token? And when (in what phase/Stage)? Producers/Creato
 - creator ("artist")
 - collector
 - curator
+- patron (investor in crowdfunded art)
 - speculator
 - fan
 - (lurker)
