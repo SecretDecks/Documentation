@@ -38,3 +38,16 @@ Heather, GL, Dan, N4t, Balu, Darius
 - whats the pro over selling on website? artist can sell **unique** digital pieces **directly** ! **(communicate this in marketing & newsletters!)**
 
 - A heated discussion about religion and if it is necessary to always list alphabetically even though the chronological order is in focus in the writing
+
+# Secret Decks Meetings
+25th May 2021
+
+## Attendees
+Heather, GL, Dan, Stephen W. (remote)
+
+## Agenda
+-[] discuss mindfulness policy!
+-[] finish writing newsletter!
+- Github [Workflow](https://github.com/SecretDecks/Documentation/discussions/4)
+- [Contribution Survey](https://github.com/NFT-DAO/Governance-HOLON/discussions/96) - discuss if to implement!
+- [Introduction Thread](https://github.com/SecretDecks/Documentation/discussions/2)
