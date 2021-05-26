@@ -1,7 +1,10 @@
 # Documentation
 Documentation from seed to clone.
 
-## [⏩Project Kanban Board⏪](https://github.com/SecretDecks/Documentation/projects/1)
+## [⏩ Project Kanban Board ⏪](https://github.com/SecretDecks/Documentation/projects/1)
+
+## [The digital & autonomous Townhall](https://github.com/SecretDecks/Documentation/discussions)
+
 
 ## What is SecretDecks®?
 You will soon find out.
