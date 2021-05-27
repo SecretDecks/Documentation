@@ -23,4 +23,4 @@ SecretDecks® is a brand that is the seed catalysing a new kind of endeavour, ca
 
 [3. Mindfulness Policy](https://github.com/SecretDecks/Documentation/blob/main/Mindfulness-Policy.md)
 
-[4. Contribution Survey (Draft)](https://github.com/SecretDecks/Documentation/blob/main/Draft-DAO-Contribution-Survey.md)
+[4. Contribution Survey Template](https://github.com/SecretDecks/Documentation/blob/main/DTemplate-Contribution-Survey.md)
