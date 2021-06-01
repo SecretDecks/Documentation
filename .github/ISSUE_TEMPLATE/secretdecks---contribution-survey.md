@@ -2,7 +2,7 @@
 name: SecretDecks - Contribution Survey
 about: A survey to asses contribution by individuals to the autonomous organisation
   or SecretDecks directly
-title: ''
+title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: good first issue
 assignees: ''
 
