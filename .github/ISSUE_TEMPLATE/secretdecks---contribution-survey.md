@@ -8,7 +8,7 @@ assignees: ''
 
 ---
  ## Autonomous Creator Organisation (ACO) - Contribution-Survey
- Detailed Expalanation below
+[Detailed Expalanation below](#autonomous-creator-organisation-aco---contribution-survey-1)
   
 ## General Information
 
