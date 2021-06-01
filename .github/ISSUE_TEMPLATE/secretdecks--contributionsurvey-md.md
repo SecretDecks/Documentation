@@ -1,5 +1,5 @@
 ---
-name: SecretDecks -ContributionSurvey.md
+name: SecretDecks -ContributionSurvey
 about: A survey to asses contribution by individuals to the autonomous organisation
   or SecretDecks directly
 title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey.md"
