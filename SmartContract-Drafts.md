@@ -12,5 +12,12 @@ Draft of the contracts employed within the network. The content will be refined 
 - the buyer receives a certificate of **ownership** as a Non Fungible Token (NFT), within this NFT the piece (content) as well as other metadata (description, edition, title, date of creation,...) is linked. SD® is using IPFS (for decentralized storing) and Arweave (for encryption and pinning), the costs for arewave are covered in the network fee; as long as Arweave is operating the delivery of the content tied to the owenrship is guaranteed.
 - **transaction fee(s)** outside of SD® might occur, such as fees for sending funds to buy a piece
 - the fixed SD® **network fee** is paid by the buyer
-- there are **no returns** for certificates of owenrship
-- **royalty** status and modalities are set by the artist before "minting" the certificate of owenrship; if royalties status is set to active then a certain % of any subsequent re-sale on secondary markets will be rolled back to the creator
+- there are **no returns** for certificates of ownership
+- **royalty** status and modalities are set by the artist before "minting" the certificate of ownership; if royalties status is set to active then a certain % of any subsequent re-sale on secondary markets will be rolled back to the creator
+
+## Contract C: Owner <-> Buyer *(ownership, fee, returns, royalties)*
+- the **ownership** certificate NFT is transfered from current owner to buyer
+- **transaction fee(s)** outside of SD® might occur, such as fees for sending funds to buy a piece
+- the fixed SD® **network fee** is paid by the buyer
+- there are **no returns** for certificates of ownership
+- **royalty** is delivered to art creator dependent on royalty parameters set during minting
