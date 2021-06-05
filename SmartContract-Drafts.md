@@ -3,7 +3,7 @@ Draft of the contracts employed within the network. The content will be refined 
 
 ## Contract A: Platform <-> Artist *(verification, network fee, copyright, royalties ...)*
 - personal **verification** of artist (if remote via zoom) to team, to platform/community; verification hash created for artist; artist can integrate hash into other social media accounts, in order for buyers to verify authenticity of pieces
-- a fixed **network fee** is charged to cover for: basic technical infrastruxure, token minting, content storage (ipfs & encryption via Arweave); a fixed service fee is charged to cover for: creation of meta data templates, translation of contract data presentation and copy writing for art pieces, facilitation of "drop"; the service fee revenue is allocated to the (SD@DAO) foundation fund pool
+- a fixed **network fee** is charged to cover for: basic technical infrastructure, token minting, content storage (ipfs & encryption via Arweave); a fixed service fee is charged to cover for: creation of meta data templates, translation of contract data presentation and copy writing for art pieces, facilitation of "drop"; the service fee revenue is allocated to the (SD@DAO) foundation fund pool
 - the **copyright** will always remain with the artist(s) that created that piece; except if at a later stage it will be possible for the artist(s) to decide if and how they want to part with the copyright of a specfic piece
 - Before creation of the piece, the artist(s) will decide if and how high a **royalty** shall be paid upon each subsequent sale of any given piece, on 3rd party markets or via a SD® app alike
 
@@ -21,3 +21,13 @@ Draft of the contracts employed within the network. The content will be refined 
 - the fixed SD® **network fee** is paid by the buyer
 - there are **no returns** for certificates of ownership
 - **royalty** is delivered to art creator dependent on royalty parameters set during minting
+
+
+## Contract D: Platform<-> Patron *(verification, network fee, ownership, copyright, royalties)*
+- personal **verification** of patron (if remote via zoom) to team, to platform/community; verification hash created for patron; patron can integrate hash into other social media accounts, in order for buyers to verify authenticity of pieces
+- A fixed **network fee** is charged to cover for: basic technical infrastructure, setting paramaters of patronage, token minting, content storage (ipfs & encryption via Arweave); a fixed service fee is charged to cover for: creation of meta data templates, translation of contract data presentation and copy writing for art pieces, facilitation of "drop"; the service fee revenue is allocated to the (SD@DAO) foundation fund pool
+- **copyright** remains with artists that accepts patronage, unless otherwise stipulated in the establishment of patronage parameters
+- **ownership** remains with the patron, until purchase by a buyer
+- **funding** is locked into contract and delivered to artist after completion of art stipulated in patronage parameters
+- **royalty** status and modalities are set by the patron with "minting" the certificate of ownership. Patron sets royaltie parameters
+- **cancellation** Patron contract can be cancelled anytime up to the point of being accepted by an artist. 
