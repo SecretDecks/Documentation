@@ -1,3 +1,10 @@
+[![GitHub open issues](https://img.shields.io/github/issues/SecretDecks/Documentation?style=flat-square)](https://github.com/SecretDecks/Documentation/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/SecretDecks/Documentation?style=flat-square)](https://github.com/SecretDecks/Documentation/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/SecretDecks/Documentation)](https://github.com/SecretDecks/Documentation/pulls)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/SecretDecks/Documentation)](https://github.com/CSecretDecks/Documentation/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub milestones](https://img.shields.io/github/milestones/open/SecretDecks/Documentation?style=flat-square)](https://github.com/SecretDecks/Documentation/milestones)
+
+
 # Documentation
 Documentation from seed to clone.
 
