@@ -7,7 +7,7 @@ In order to live in harmony with this planet, we will always **favour**:
 
 * **Building** on sovereign grade censorship resistant systems, offering data- and **self-sovereignty** for good actors, over centralised, censorable systems. 
 * **Creating a harmonious habitat**, blending in and supporting synergies with the environment, over zero sum games.
-* **Complementing**, over obstructing the **environment and individual**.
+* **Complementing**, over controlling the **environment and individual**.
 * **Embracing** new technologies and **fresh thought** processes, over conserving faulty systems.
 * **Open source ideas** and build loyalty coalitions and teams (infosets/Holons), over proprietary code and hierarchical companies.
 * **Preserving**, over extracting **resources** from the environment or individuals. Growing networks, over enterprises.
