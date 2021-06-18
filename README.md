@@ -5,6 +5,12 @@
 [![GitHub milestones](https://img.shields.io/github/milestones/open/SecretDecks/Documentation?style=flat-square)](https://github.com/SecretDecks/Documentation/milestones)
 
 
+### What is SecretDecks®?
+*SecretDecks is the soul of the autonomous creator organisation (ACO) we're currently creating. Like a brand to a company, it generates value external to the inherent value of the organisation and can thus help to sustain and nourish it in a transcendental way.*
+
+### Why is SecretDecks®?
+*SecretDecks® is acting as the seed or soul catalysing a new kind of endeavour, called a Autonomus Creator Organization - ACO for short.* 
+
 # Documentation
 Documentation from seed to clone.
 
@@ -16,13 +22,7 @@ Until we have the contirbution tracking and value attribution automated, we need
 
 ## [The digital & autonomous Townhall](https://github.com/SecretDecks/Documentation/discussions)
 Talk about ideas, discuss issues, raise questions or introduce your Self [here](https://github.com/SecretDecks/Documentation/discussions).
-
-## What is SecretDecks®?
-SecretDecks is the soul of the autonomous creator organisation we're currently creating. Like a brand to a company, it generates value external to the inherent value of the organisation and can thus help to sustain and nourish it in a transcendental way.
-
-## Why is SecretDecks®?
-SecretDecks® is acting as the seed catalysing a new kind of endeavour, called a Autonomus Creator Organization - ACO for short. 
-
+#
 ### Social Media & Contact
 - [Twitter](https://twitter.com/SecretDecks)
 - [Reddit](https://www.reddit.com/user/SecretDecks)
