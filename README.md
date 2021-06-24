@@ -8,7 +8,7 @@
 # Documentation
 Documentation for the Autonomous Creator Organisation (ACO) - the body - and SecretDecks (SD) - the soul - the  from seed to clone.
 
-##  💪💡👍  To participate [Click here](https://github.com/DanM3rcurius/Documentation/blob/main/Contribute.md) and join [our Discord](https://discord.gg/Ww85r7yJMk)
+##  💪💡👍  To participate [Click here](https://github.com/SecretDecks/Documentation/blob/main/Contribute.md) and join [our Discord](https://discord.gg/Ww85r7yJMk)
 
 
 ## Important Links
