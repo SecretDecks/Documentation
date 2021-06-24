@@ -1,0 +1,21 @@
+# Table of contents
+
+* [README](README.md)
+* [Contributor Covenant Code of Conduct](code-of-conduct.md)
+* [Contribute](contribute.md)
+* [Mindfulness Policy](mindfulness-policy.md)
+* [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](license.md)
+* [Drafts](drafts/README.md)
+  * [TokenDesign-Kickoff-Doc](drafts/tokendesign-kickoff-doc.md)
+  * [Draft-Charter](drafts/charter.md)
+  * [Smart Contract Drafts](drafts/smartcontract-drafts.md)
+* [MeetingMinutes](meetingminutes/README.md)
+  * [2021-05-SD-MeetingMinutes](meetingminutes/2021-05-sd-meetingminutes.md)
+* [Surveys](surveys/README.md)
+  * [Contribution](surveys/contribution/README.md)
+    * [Dan-Contribution-Survey](surveys/contribution/dan-contribution-survey.md)
+    * [Template-Contribution-Survey](surveys/contribution/template-contribution-survey.md)
+* [.github](.github/README.md)
+  * [ISSUE\_TEMPLATE](.github/issue_template/README.md)
+    * [secretdecks---contribution-survey](.github/issue_template/secretdecks---contribution-survey.md)
+
