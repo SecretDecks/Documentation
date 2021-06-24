@@ -1,111 +1,112 @@
-# Template-Contribution-Survey
-
+ ## Autonomous Creator Organisation (ACO) - Contribution-Survey
+[Detailed Expalanation below](#autonomous-creator-organisation-aco---contribution-survey-1)
   
-DAO Contribution-Survey Design by [Stephen Whitenstall](https://github.com/Quality-Assurance-DAO) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+## General Information
 
-### 04-Autonomous Creator Organisation \(ACO\) - Contribution-Survey
+This provides an overall summary or context of a member, when they became involved and how many days they have worked.
+This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made. 
 
-**The key approach is to capture contributions first and assess value last.**
+- [ ] Date joined ACO - []
+- [ ] Days / Hours worked overall - /month
+- [ ] Cost of contribution (from member perspective) -  
+- [ ] Contribution vote - 
 
-Why ? Because value led models typically dictate the nature of contributions e.g. a financial incentive contribution model will tend to favor immediate returns, an equal share of rewards upfront will penalize those who have contributed more than others etc.
+## Work areas
 
-A contribution led model either tracks or audits ACO member contributions first. Then rewards \(in ADA\) or recognition \(in a Token\) are applied to the contribution data afterwards.
+A member can indicate the different work areas they have worked in and provide an estimate of Days / Hours worked in each area.
+The areas are Development , Marketing, Governance, Business, Creative, Product and Intangible work.
+Intangible work is meant to capture contributions not covered by the scope of a work area.
 
-### Identity
+## Cost calculations (to be decided)
 
-**This survey encourages ACO members to identify themselves as it provides a record of their contribution.**
+Hours/Days worked - Costs
+A variable rate may be applied depending up the cost/rate of the contributor (their hourly rate and work costs).
 
-However a anon ID option should be available and peer reviewed per work area.
+## Development 
 
-### General Information
+Each work area will be divided into appropriate categories (e.g. Code, UX etc.) and be accompanied with an "Outputs" section where members can record what they have produced, built, documented etc.
 
-This provides an overall summary or context of a member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
+- [ ] Code
+- [ ] UX
+- [ ] Test
+- [ ] Support
+- [ ] **Outputs** : What has been produced, built, documented etc.
 
-* [ ] Date joined ACO
-* [ ] Days / Hours worked overall
-* [ ] Cost of contribution \(from member perspective\)
-* [ ] Contribution vote
+## Marketing 
 
-### Work areas
+- [ ] Campaign
+- [ ] Research
+- [ ] **Outputs** : What has been produced, built, documented etc. *blog content, website content, outreach, marketing material, created social media accounts*
 
-A member can indicate the different work areas they have worked in and provide an estimate of Days / Hours worked in each area. The areas are Engineering / Development , Marketing, Governance, Business, Creative, Product and Intangible work. Intangible work is meant to capture contributions not covered by the scope of a work area.
+## Governance
 
-### Cost calculations \(to be decided\)
+- [ ] Documentation
+- [ ] Organization
+- [ ] Procedures
+- [ ] **Outputs** : What has been produced, built, documented etc. *Setup of GitHub infrastructure; introduction of OpenSource and agile methodologies; Contribution-Survey setup, basic autonomous organisation infrastructure design docs/workflows*
 
-Hours/Days worked - Costs A variable rate may be applied depending up the cost/rate of the contributor \(their hourly rate and work costs\).
+## Business
 
-### Development
+- [ ] Business relationships
+- [ ] Negotiation
+- [x] Networking
+- [x] **Outputs** : What has been produced, built, documented etc.*building of founding core; organisation of initial townhalls; outreach to Tarot and NFT projects as well as individual digital and "physical" artists*
 
-Each work area will be divided into appropriate categories \(e.g. Code, UX etc.\) and be accompanied with an "Outputs" section where members can record what they have produced, built, documented etc.
+## Product
 
-* [ ] Code
-* [ ] UX
-* [ ] Test
-* [ ] Support
-* [ ] **Outputs** : What has been produced, built, documented etc.
+- [ ] Design
+- [ ] Copy
+- [ ] Planning
+- [ ] **Outputs** : What has been produced, built, documented etc. *Product roadmap for SecretDecks, rough app ideas*
 
-### Marketing
+## Creative - Art
 
-* [ ] Campaign
-* [ ] Research
-* [ ] **Outputs** : What has been produced, built, documented etc.
+- [ ] Product Design
+- [ ] Video / Film
+- [ ] Artwork
+- [ ] Art curation
+- [ ] Artist outreach
+- [ ] **Outputs** : What has been produced, built, documented etc.
 
-### Governance
+## Intangible work
 
-* [ ] Documentation
-* [ ] Organization
-* [ ] Procedures
-* [ ] **Outputs** : What has been produced, built, documented etc.
+- [ ] Greeting new members
+- [ ] Mentoring
+- [ ] Social / Emotional Support
+- [ ] Communicating news and ideas in Discord
+- [ ] **Outputs** : What has been produced, built, documented etc. *initiation of project*
 
-### Business
+# Peer Review
 
-* [ ] Business relationships
-* [ ] Negotiation
-* [ ] Networking
-* [ ] **Outputs** : What has been produced, built, documented etc.
-
-### Product
-
-* [ ] Design
-* [ ] Copy
-* [ ] Planning
-* [ ] **Outputs** : What has been produced, built, documented etc.
-
-### Creative - Art
-
-* [ ] Product Design
-* [ ] Video / Film
-* [ ] Artwork
-* [ ] Art curation
-* [ ] Artist outreach
-* [ ] **Outputs** : What has been produced, built, documented etc.
-
-### Intangible work
-
-* [ ] Greeting new members
-* [ ] Mentoring
-* [ ] Social / Emotional Support
-* [ ] Communicating news and ideas in Discord
-* [ ] **Outputs** : What has been produced, built, documented etc.
-
-## Peer Review
-
-### Group
+## Group
 
 After the survey each contribution is assessed for due diligence by the appropriate work area Group - to confirm that there is agreement that the work took place etc.
 
-### ACO
+## ACO
 
 After the survey - intangibles are voted upon per member by the ACO.
 
-## Reward and evaluation
+# Reward and evaluation
 
-Once the above process is completed a member may choose either to be awarded -
+Once the above process is completed a member may choose either to be awarded - 
 
-* [ ] ADA per day / hour = Total \*
-* [ ] A recognition Token that simply records the above contribution.
+- [ ] 20 ADA per / hour = 1600 ADA (if 80h paid in ADA - or up to 4 Major Arcana for every 200 ADA)
+- [ ] A recognition Token that simply records the above contribution.
 
-\*Note - A variable rate may be applied depending up the cost/rate of the contributor \(their hourly rate and work costs\).
+## Autonomous Creator Organisation (ACO) - Contribution-Survey
 
-Keeping it simple at this stage allow for the possibility that a recognition token may become transferable later.
+**The key approach is to capture contributions first and assess value last.** 
+  Detailed Expalanation below
 
+Why ? Because value led models typically dictate the nature of contributions e.g. a financial incentive contribution model will tend to favor immediate returns, an equal share of rewards upfront will penalize those who have contributed more than others etc.
+
+A contribution led model either tracks or audits ACO member contributions first. Then rewards (in ADA) or recognition (in a Token) are applied to the contribution data afterwards.
+
+## Identity
+
+**This survey encourages ACO members to identify themselves as it provides a record of their contribution.**
+
+However an anon ID option should be available and peer reviewed per work area.
+
+  
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">DAO Contribution-Survey Design</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/Quality-Assurance-DAO" property="cc:attributionName" rel="cc:attributionURL">Stephen Whitenstall</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
