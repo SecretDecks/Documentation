@@ -8,12 +8,12 @@ This is the contribute.md of our project. Great to have you here. Here are a few
 
 ## Team members
 
-@DanM3rcurius
-@stephen-rowan
-@evolayak
-@wlstylr 
-@tamagit80 
-@bUxEE
+- @DanM3rcurius (copywriting, orga & planning, product design)
+- @stephen-rowan (documentation, QA, orga & planning)
+- @evolayak (copywriting, editing)
+- @wlstylr (orga & planning, product design, UX)
+- @tamagit80 (IT, front-end)
+- @bUxEE (IT, back-end)
 
 ## Learn & listen
 
