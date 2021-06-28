@@ -20,9 +20,9 @@ However a anon ID option should be available and peer reviewed per work area.
 This provides an overall summary or context of a member, when they became involved and how many days they have worked.
 This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made. 
 
-- [ ] Date joined ACO
-- [ ] Days / Hours worked overall
-- [ ] Cost of contribution (from member perspective)
+- [ ] Date joined ACO: 1st or April 2021
+- [ ] Days / Hours worked overall: ca. 80 / month
+- [ ] Cost of contribution (from member perspective): €30 / h
 - [ ] Contribution vote
 
 ## Work areas
@@ -48,30 +48,30 @@ Each work area will be divided into appropriate categories (e.g. Code, UX etc.) 
 
 ## Marketing 
 
--  [ ] Campaign
--  [ ] Research
-- [ ] **Outputs** : What has been produced, built, documented etc.
+-  [x] Campaign
+-  [x] Research
+- [ ] **Outputs** : What has been produced, built, documented etc.: blog content, website content, outreach, marketing material, created social media accounts
 
 ## Governance
 
-- [ ] Documentation
-- [ ] Organization
-- [ ] Procedures
-- [ ] **Outputs** : What has been produced, built, documented etc.
+- [x] Documentation
+- [x] Organization
+- [x] Procedures
+- [ ] **Outputs** : What has been produced, built, documented etc. : Setup of github infrastrucutre; introduction of OpenSource and agile methodologies; Contribution-Survey setup, TCR voting research, basic autonomous organistaion infrastructure design docs (TBD)
 
 ## Business
 
-- [ ] Business relationships
+- [x] Business relationships
 - [ ] Negotiation
-- [ ] Networking
-- [ ] **Outputs** : What has been produced, built, documented etc.
+- [x] Networking
+- [ ] **Outputs** : What has been produced, built, documented etc. : building of founding core; organisation of initial townhalls; outreach to Tarot and NFT projects as well as individual digital and "physical" artists
 
 ## Product
 
-- [ ] Design
+- [x] Design
 - [ ] Copy
-- [ ] Planning
-- [ ] **Outputs** : What has been produced, built, documented etc.
+- [x] Planning
+- [ ] **Outputs** : What has been produced, built, documented etc. : Product roadmap for SecretDecks; basic app flow & design (TBD)
 
 ## Creative - Art
 
@@ -79,14 +79,14 @@ Each work area will be divided into appropriate categories (e.g. Code, UX etc.) 
 - [ ] Video / Film
 - [ ] Artwork
 - [ ] Art curation
-- [ ] Artist outreach
+- [x] Artist outreach
 - [ ] **Outputs** : What has been produced, built, documented etc.
 
 ## Intangible work
 
-- [ ] Greeting new members
-- [ ] Mentoring
-- [ ] Social / Emotional Support
+- [x] Greeting new members
+- [x] Mentoring
+- [x] Social / Emotional Support
 - [ ] Communicating news and ideas in Discord
 - [ ] **Outputs** : What has been produced, built, documented etc.
 
