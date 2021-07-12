@@ -1,4 +1,5 @@
 # Mindfulness Policy
+(To discuss this document please comment on this Issue thread - https://github.com/SecretDecks/Documentation/issues/10).
 
 We entertain the idea that this planet is a living organism, a holistic system - made of many decentralised parts - that strives for balance and sustainability from chaos, in order to create symbiotic, more efficient and less intrusive forms of life.
 #
