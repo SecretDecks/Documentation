@@ -30,4 +30,10 @@ assignees: ''
 - *answer b* : *x votes*
 - *answer c* : *x votes*
 - ...
-Optional: *insert screenshot of results*
+- Optional: *insert screenshot of results*
+
+## Action Item
+- [ ] *describe required action item*
+
+## [optional] Proof of Done (PoD)
+*give proof the action item is done*
