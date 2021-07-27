@@ -101,11 +101,11 @@ body:
     label: x1
     description:  member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
     options:
-    - label: a1
+    - label: First label
       required: true
-    - label: b1
+    - label: 2 label
       required: true
-    - label: c1
+    - label: 3 label
       required: true
-    - label: d1
+    - label: 4 label
       required: true
