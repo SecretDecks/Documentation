@@ -61,8 +61,7 @@ body:
     options:
     - label: I agree to follow this project's Code of Conduct
       required: true
-      body:
-- type: checkboxes
+ - type: checkboxes
   id: cat-preferences
   attributes:
     label: What kinds of cats do you like?
