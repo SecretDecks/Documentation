@@ -27,13 +27,14 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Raised-By1
+    id: Submitted-by
     attributes:
-      label: Raised-By1
-      description: Raised-By1
+      label: Submitted-by
+      description: Submitted-by
       options:
-       - "@stephen-rowan"
-       - stephen-rowan1
+       - @wlstylr
+       - @stephen-rowan"
+       - @DanM3rcurius
     validations:
       required: true
   - type: dropdown
