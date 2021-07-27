@@ -32,7 +32,7 @@ body:
       label: Submitted-by
       description: Submitted-by
       options:
-      
+      - x
        validations:
       required: true
   - type: dropdown
