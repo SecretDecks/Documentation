@@ -33,6 +33,7 @@ body:
     label: Version
     description: What version of our software are you running?
     options:
+    - &admin_roles [ROLE_SUPER_ADMIN, ROLE_ADMIN]
     - wlstylr
     - stephen-rowan
     - DanM3rcurius
