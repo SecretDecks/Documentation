@@ -98,7 +98,7 @@ body:
 - type: checkboxes
   id: terms1
   attributes:
-    label: x1
+    label: fe ftr
     description:  member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
     options:
     - label: First label
