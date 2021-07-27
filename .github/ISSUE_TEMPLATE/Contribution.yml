@@ -96,7 +96,7 @@ body:
     - label: Contribution vote
       required: true
 - type: checkboxes
-  id: terms
+  id: terms1
   attributes:
     label: General Information
     description: This provides an overall summary or context of a member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
