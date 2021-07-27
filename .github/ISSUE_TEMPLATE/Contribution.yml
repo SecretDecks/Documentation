@@ -3,7 +3,7 @@ description: A survey to asses contribution by individuals to the autonomous org
 title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: [Contribution Survey]
 Contributor : &Contributor test
-assignees: *Contributor 
+assignees: Contributor 
 body:
 - type: markdown
   attributes:
