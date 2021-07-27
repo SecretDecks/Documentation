@@ -19,7 +19,7 @@ body:
   id: contributer
   attributes:
     label: Contributer
-    multiple: true
+    multiple: false
     options:
     - Dan
     - Tyler
