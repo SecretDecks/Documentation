@@ -35,6 +35,7 @@ body:
     options:
     - wlstylr
     - stephen-rowan
+    - DanM3rcurius
   validations:
     required: true
 - type: dropdown
