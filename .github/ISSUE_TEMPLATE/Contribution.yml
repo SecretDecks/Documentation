@@ -61,3 +61,5 @@ body:
     options:
     - label: I agree to follow this project's Code of Conduct
       required: true
+      - label: I agree to this project's Code of Conduct
+      required: true
