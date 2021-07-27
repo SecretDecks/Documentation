@@ -80,5 +80,5 @@ body:
   attributes:
     label: Outputs 
     description: What has been produced, built, documented etc.
-    render : code
+    render : text
  
