@@ -2,6 +2,17 @@ name: SecretDecks-Contribution Survey
 description: A survey to asses contribution by individuals to the autonomous organisation or SecretDecks directly
 title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: [Contribution Survey]
+- type: dropdown
+  id: version
+  attributes:
+    label: Version
+    description: What version of our software are you running?
+    options:
+    - &Contributor wlstylr
+    - &Contributor stephen-rowan
+    - &Contributor DanM3rcurius
+  validations:
+    required: true
 assignees: *Contributor 
 body:
 - type: markdown
@@ -23,17 +34,6 @@ body:
     description: Also tell us, what did you expect to happen?
     placeholder: Tell us what you see!
     value: "A bug happened!"
-  validations:
-    required: true
-- type: dropdown
-  id: version
-  attributes:
-    label: Version
-    description: What version of our software are you running?
-    options:
-    - &Contributor wlstylr
-    - &Contributor stephen-rowan
-    - &Contributor DanM3rcurius
   validations:
     required: true
 - type: dropdown
