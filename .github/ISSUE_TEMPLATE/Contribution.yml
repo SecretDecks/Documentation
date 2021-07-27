@@ -76,8 +76,8 @@ body:
     - label: Support
       required: false
 - type: textarea
-  id: logs
+  id: Outputs
   attributes:
-    label: Relevant log output
-    description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-    render: shell
+    label: Outputs 
+    description: : What has been produced, built, documented etc.
+    render: text
