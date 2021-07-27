@@ -76,7 +76,7 @@ body:
     - label: Support
       required: false
 - type: textarea
-  id: Outputs
+  id: zzzz
   attributes:
     label: Outputs 
     description: : What has been produced, built, documented etc.
