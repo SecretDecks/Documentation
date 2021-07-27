@@ -32,9 +32,7 @@ body:
       label: Submitted-by
       description: Submitted-by
       options:
-       - @wlstylr
-       - @stephen-rowan
-       - @DanM3rcurius
+      
        validations:
       required: true
   - type: dropdown
