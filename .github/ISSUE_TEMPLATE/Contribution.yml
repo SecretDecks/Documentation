@@ -71,7 +71,7 @@ body:
   id: Development
   attributes:
     label: Development
-    description:  member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
+    description:  Each work area will be divided into appropriate categories (e.g. Code, UX etc.) and be accompanied with an "Outputs" section where members can record what they have produced, built, documented etc.
     options:
     - label: Code
       required: false
