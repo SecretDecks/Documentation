@@ -80,6 +80,5 @@ body:
   attributes:
     label: Outputs 
     placeholder: What has been produced, built, documented etc.
-    description: What has been produced, built, documented etc.
     render : text
  
