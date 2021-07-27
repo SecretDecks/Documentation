@@ -34,7 +34,6 @@ body:
     description: What version of our software are you running?
     options:
     - &Contributor wlstylr
-    - wlstylr
     - stephen-rowan
     - DanM3rcurius
   validations:
