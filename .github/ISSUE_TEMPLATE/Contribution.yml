@@ -59,7 +59,11 @@ body:
     label: Code of Conduct
     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
     options:
-    - label: I agree to follow this project's Code of Conduct
+    - label:  Date joined ACO - [Month/Day/Year]
       required: true
-    - label: I agree to this project's Code of Conduct
+    - label: Days / Hours worked overall - [00 Days/Hours]
+      required: true
+       - label: Cost of contribution (from member perspective) - [$ 0]
+      required: true
+       - label: Contribution vote
       required: true
