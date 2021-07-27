@@ -3,8 +3,7 @@ description: A survey to asses contribution by individuals to the autonomous org
 title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: [Contribution Survey]
 assignees:
-- monalisa
-- nat
+*Contributor 
 body:
 - type: markdown
   attributes:
@@ -34,8 +33,8 @@ body:
     description: What version of our software are you running?
     options:
     - &Contributor wlstylr
-    - stephen-rowan
-    - DanM3rcurius
+    - &Contributor stephen-rowan
+    - &Contributor DanM3rcurius
   validations:
     required: true
 - type: dropdown
