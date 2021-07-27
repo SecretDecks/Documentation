@@ -98,14 +98,14 @@ body:
 - type: checkboxes
   id: terms1
   attributes:
-    label: General Information
+    label: General Information1
     description: This provides an overall summary or context of a member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
     options:
-    - label:  Date joined ACO - [Month/Day/Year]
+    - label:  Date joined ACO - [Month/Day/Year]1
       required: true
-    - label: Days / Hours worked overall - [00 Days/Hours]
+    - label: Days / Hours worked overall - [00 Days/Hours]1
       required: true
-    - label: Cost of contribution (from member perspective) - [$ 0]
+    - label: Cost of contribution (from member perspective) - [$ 0]1
       required: true
-    - label: Contribution vote
+    - label: Contribution vote1
       required: true
