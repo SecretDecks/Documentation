@@ -1,0 +1,62 @@
+name: Contribution
+description: Submit a record of Contribution
+title: "Autonomous Creator Organisation (ACO) - Contribution-Survey"
+labels: [Contribution Survey]
+assignees:
+ Raised-By
+body:
+  - type: markdown
+    attributes:
+      value: |
+        PLease enter the title of your Agenda Item above.
+  - type: input
+    id: Raised-By
+    attributes:
+      label: Raised By
+      description: Who raised this Agenda Item ?
+      placeholder: ex. your GitHub name
+    validations:
+      required: false
+  - type: textarea
+    id: Agenda-Item-Detail
+    attributes:
+      label: Details of your Agenda Item
+      description: Please enter the details of your Agenda Item here.
+      placeholder: Please enter the details of your Agenda Item here.
+      value: "## Agenda Item"
+    validations:
+      required: true
+  - type: dropdown
+    id: Raised-By1
+    attributes:
+      label: Raised-By1
+      description: Raised-By1
+      options:
+       - "@stephen-rowan"
+       - stephen-rowan1
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
