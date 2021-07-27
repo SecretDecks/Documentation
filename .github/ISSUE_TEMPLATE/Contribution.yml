@@ -68,16 +68,16 @@ body:
     - label: Contribution vote
       required: true
 - type: checkboxes
-  id: terms1
+  id: Development
   attributes:
-    label: fe ftr
+    label: Development
     description:  member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
     options:
-    - label: First label
-      required: true
-    - label: 2 label
-      required: true
-    - label: 3 label
-      required: true
-    - label: 4 label
-      required: true
+    - label: Code
+      required: false
+    - label: UX
+      required: false
+    - label: Test
+      required: false
+    - label: Support
+      required: false
