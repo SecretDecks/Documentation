@@ -33,7 +33,7 @@ body:
       description: Submitted-by
       options:
        - @wlstylr
-       - @stephen-rowan"
+       - @stephen-rowan
        - @DanM3rcurius
     validations:
       required: true
