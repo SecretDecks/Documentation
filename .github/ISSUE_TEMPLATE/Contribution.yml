@@ -15,16 +15,16 @@ body:
     placeholder: ex. email@example.com
   validations:
     required: false
-- type: dropdown
-  id: browsers
+- type: contributer
+  id: contributer
   attributes:
-    label: What browsers are you seeing the problem on?
+    label: contributer name
     multiple: true
     options:
-    - Firefox
-    - Chrome
-    - Safari
-    - Microsoft Edge
+    - Dan
+    - Tyler
+    - Heather
+    - Stephen
 - type: checkboxes
   id: terms
   attributes:
