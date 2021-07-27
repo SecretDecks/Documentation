@@ -15,7 +15,7 @@ body:
     placeholder: ex. email@example.com
   validations:
     required: false
-- type: contributer
+- type: dropdown
   id: contributer
   attributes:
     label: contributer name
