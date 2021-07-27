@@ -63,7 +63,7 @@ body:
       required: true
     - label: Days / Hours worked overall - [00 Days/Hours]
       required: true
-      - label: Cost of contribution (from member perspective) - [$ 0]
+    - label: Cost of contribution (from member perspective) - [$ 0]
       required: true
-      - label: Contribution vote
+    - label: Contribution vote
       required: true
