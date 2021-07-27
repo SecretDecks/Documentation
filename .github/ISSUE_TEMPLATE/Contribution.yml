@@ -35,7 +35,7 @@ body:
        - @wlstylr
        - @stephen-rowan
        - @DanM3rcurius
-    validations:
+       validations:
       required: true
   - type: dropdown
     id: browsers
