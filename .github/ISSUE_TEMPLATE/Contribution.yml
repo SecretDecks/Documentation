@@ -46,7 +46,7 @@ body:
     required: true
     multiple: true
     options:
-    - @DanM3rcurius
+    - DanM3rcurius
     - Tyler
     - Heather
     - Stephen
