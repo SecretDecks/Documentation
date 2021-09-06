@@ -27,11 +27,11 @@ This section includes ways to get started with your open source project. Include
 # How we vote
 
 - Any core member can create a poll
-- Before a poll can be created in Discord, it has to (manually) receive two peer approvals; hence a github issue [has to be raised](https://github.com/SecretDecks/Documentation/issues/new/choose), giving a short summary of the poll and asking for peer review. A template for the voting report can be found [HERE](https://github.com/SecretDecks/Documentation/issues/new/choose)
-- in case the vote result has a large impact, a proposal needs to written upfront and the voting timeframe has to be 7 days minimum
-- in case vote result has a small impact, poll can be created with a minimum timeframe of 48h
-- poll answers/results need to be documented in the issue raised before, as well as approved by two peers
-- any change management needs to reference the issue in GitHub when creating additional items like discussions or other issues
+- Before a poll can be created in Discord it has to manually receive two peer approvals. A github issue [has to be raised](https://github.com/SecretDecks/Documentation/issues/new/choose),which gives a short summary of the poll and requests a peer review. A template for the voting report can be found [HERE](https://github.com/SecretDecks/Documentation/issues/new/choose)
+- If the vote result has a large impact a proposal will need to be written beforehand and the voting timeframe has to be 7 days minimum.
+- If the vote result has a small impact a poll can be created with a minimum timeframe of 48 hours.
+- Poll answers & results need to be documented in the issue raised beforehand and be approved by two peers.
+- Any change management needs to reference the issue in GitHub when creating additional items like discussions or other issues.
 
 
 
