@@ -24,6 +24,19 @@ This section includes ways to get started with your open source project. Include
 * [Blog](https://medium.com/@secretdecks)         
 * Anything else: see [Website](www.secretdecks.com)
 
+# How we vote
+
+- Any core member can create a poll
+- Before a poll can be created in Discord it has to manually receive two peer approvals. A github issue [has to be raised](https://github.com/SecretDecks/Documentation/issues/new/choose),which gives a short summary of the poll and requests a peer review. A template for the voting report can be found [HERE](https://github.com/SecretDecks/Documentation/issues/new/choose)
+- If the vote result has a large impact a proposal will need to be written beforehand and the voting timeframe has to be 7 days minimum.
+- If the vote result has a small impact a poll can be created with a minimum timeframe of 48 hours.
+- Poll answers & results need to be documented in the issue raised beforehand and be approved by two peers.
+- Any change management needs to reference the issue in GitHub when creating additional items like discussions or other issues.
+
+
+
+
+# SECTION BELOW in progress
 ## Adding new features
 
 This section includes advice on how to build new features for the project & what kind of process it includes. 
@@ -55,7 +68,6 @@ This sections explains how bug triaging is done for your project. Help beginners
 * You can close fixed bugs by testing old tickets to see if they are still happening.
 * You can update our changelog here: **TBD**
 * You can remove duplicate bug reports by:closing them as duplicates
-
 
 # Beta testing
 
