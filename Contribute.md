@@ -5,6 +5,20 @@
 This is the contribute.md of our project. Great to have you here. Here are a few ways you can help make this project better!
 
 # Contribute
+- ideas and proposals form in Discord or Github as "Discussion" 
+
+## Contribution tracking
+- intangible contributions are tracked in Discord via emojis
+- this is done via SourceCred
+- the following emojis are generating Can-D via SourceCred
+   - -1 point ![Screenshot 2021-09-06 at 14 14 14](https://user-images.githubusercontent.com/80257662/132551430-bb58a98a-7854-4cfe-9451-51447a1c41d4.png)
+   - 1 point ![Screenshot 2021-09-06 at 14 14 06](https://user-images.githubusercontent.com/80257662/132550780-a1f78b59-5360-47d3-97a7-b7ddbd3fcfcd.png)
+   - 2 points ![Screenshot 2021-09-06 at 14 14 24](https://user-images.githubusercontent.com/80257662/132551320-789a1b82-2afc-44c3-925f-91307656ef42.png)
+   - 3 points ![Screenshot 2021-09-06 at 14 14 30](https://user-images.githubusercontent.com/80257662/132551351-453697c6-98cf-49a5-8983-c6366330fbe2.png)
+   - 4 points ![Screenshot 2021-09-06 at 14 14 38](https://user-images.githubusercontent.com/80257662/132551407-8ecc64b0-c9a5-450c-86a0-955c06c6f1f6.png)
+- activity in our GitHub repositories is tracked as well
+- SourceCred distributes the community currency Can-D
+- All core members fill out a monthly contribution survey to document and validate their input
 
 ## Team members
 
