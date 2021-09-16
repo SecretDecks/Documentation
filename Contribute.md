@@ -5,7 +5,13 @@
 This is the contribute.md of our project. Great to have you here. Here are a few ways you can help make this project better!
 
 # Contribute
-- ideas and proposals form in Discord or Github as "Discussion" 
+- ideas, new content or proposals start off in Discord (as "Thread") or in Github (as "Discussion") and then flow as follows:
+- 
+![Content Contribution flow](https://user-images.githubusercontent.com/80257662/133680709-d087964e-c951-44e7-b984-f6fed778c3d6.png)
+
+![idea-or-proposal-flow](https://user-images.githubusercontent.com/80257662/133680801-13af209b-6231-49e4-87b7-55ef64e36c4f.png)
+
+
 
 ## Contribution tracking
 - intangible contributions are tracked in Discord via emojis
