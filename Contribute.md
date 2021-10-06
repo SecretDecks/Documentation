@@ -22,7 +22,7 @@ This is the contribute.md of our project. Great to have you here. Here are a few
    - 2 points ![Screenshot 2021-09-06 at 14 14 24](https://user-images.githubusercontent.com/80257662/132551320-789a1b82-2afc-44c3-925f-91307656ef42.png)
    - 3 points ![Screenshot 2021-09-06 at 14 14 30](https://user-images.githubusercontent.com/80257662/132551351-453697c6-98cf-49a5-8983-c6366330fbe2.png)
    - 4 points ![Screenshot 2021-09-06 at 14 14 38](https://user-images.githubusercontent.com/80257662/132551407-8ecc64b0-c9a5-450c-86a0-955c06c6f1f6.png)
-- activity in our GitHub repositories is tracked as well
+- activity in our GitHub repositories and the Arcana GitBook is tracked as well
 - SourceCred distributes the community currency Can-D
 - All core members fill out a monthly contribution survey to document and validate their input
 
@@ -33,7 +33,7 @@ This is the contribute.md of our project. Great to have you here. Here are a few
 - @evolayak (copywriting, editing)
 - @wlstylr (orga & planning, product design, UX)
 - @tamagit80 (IT, front-end)
-- @bUxEE (IT, back-end)
+
 
 ## Learn & listen
 
@@ -61,9 +61,11 @@ This section includes ways to get started with your open source project. Include
 
 This section includes advice on how to build new features for the project & what kind of process it includes. 
 
-* This is how we like people to add new ideas/features: for now see [here](https://github.com/SecretDecks/Documentation/issues/29): #29          
+* This is how we like people to add new ideas/features: 
+* ![image](https://user-images.githubusercontent.com/80257662/136210728-cfeb1bcd-2239-4649-a495-30c78e81949e.png)
+
 * Here are some specifics on the coding style we prefer: **TBD**   
-* This is how you send your pull request: for now see #29                  
+* This is how you send your pull request: see visual above              
 * You should include the following tests: Unit & integration tests                  
 * These are the updates we hope you make to the changelog: **TBD** 
 
