@@ -30,6 +30,5 @@ In order to live in harmony with this planet, we will always **favour**:
 ## Appendix
 ***This Mindfulness Policy is the primer for the organisation charter***
 
-1.  It's recommended as the **only obligation** for members of any Autonomous Maker/Creator Organistaion (AMO/ACO) to read the Policy and Charter carefully and subsequently sign and adhere to it.
-2. Changing the Policy or Charter is possible if all founding members see it necessary and can be done only prior to the **Genesis Event** of any AMO/ACO.
-
+1. It's recommended as the only obligation for members of any Distributed Cooperative (DisCo) to read the Policy (and Charter) carefully and subsequently sign  with a comment and adhere to it.
+2. Changing the Policy or Charter is possible if all founding members see it necessary (and can be done only prior to the Genesis Event of any DisCo).
