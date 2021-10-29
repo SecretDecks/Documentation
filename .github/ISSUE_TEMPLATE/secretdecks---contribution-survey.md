@@ -1,85 +1,54 @@
 ---
 name: SecretDecks - Contribution Survey
-about: A survey to asses contribution by individuals to the autonomous organisation
-  or SecretDecks directly
+about: A survey to asses contribution by individuals to the SecretDecks DisCo.
 title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: Contribution Survey
 assignees: ''
 
 ---
 
-## Autonomous Creator Organisation (ACO) - Contribution-Survey
-[Detailed Expalanation below](#autonomous-creator-organisation-aco---contribution-survey-1)
+## SecretDecks DisCo - Contribution-Survey
+[Detailed Expalanation below]
   
 ## General Information
 
 This provides an overall summary or context of a member, when they became involved and how many days they have worked.
-This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made. 
+This is supplemented with a contribution vote by peers to capture the more intangible contribution a member has made. 
 
-- [ ] Date joined ACO - [Month/Day/Year]
-- [ ] Days / Hours worked overall - [00 Days/Hours]
-- [ ] Cost of contribution (from member perspective) - [$ 0]
-- [ ] Contribution vote
+- Date joined ACO: [Month/Day/Year]
+- Hours worked (this month): [00 Hours]
+- Local hourly rate in USD: [0 $]  
+- [ ] Contribution vote: [@ mention members to review your contributions]
 
-## Work areas
+## Work spaces
 
-A member can indicate the different work areas they have worked in and provide an estimate of Days / Hours worked in each area.
-The areas are Development , Marketing, Governance, Business, Creative, Product and Intangible work.
+A member can indicate the different work spaces they have engaged in and provide an estimate of hours worked in each space.
+**The spaces are Operations, Website, Governance, Content & Metaverse and Intangible work.**
 Intangible work is meant to capture contributions not covered by the scope of a work area.
 
-## Cost calculations (to be decided)
 
-Hours/Days worked - Costs
-A variable rate may be applied depending up the cost/rate of the contributor (their hourly rate and work costs).
+## Operations 
 
-## Development 
-
-Each work area will be divided into appropriate categories (e.g. Code, UX etc.) and be accompanied with an "Outputs" section where members can record what they have produced, built, documented etc.
-
-- [ ] Code
-- [ ] UX
-- [ ] Test
-- [ ] Support
+- hours spent:
 - [ ] **Outputs** : What has been produced, built, documented etc.
+  
+## Website 
 
-## Marketing 
-
--  [ ] Campaign
--  [ ] Research
-- [ ] **Outputs** : What has been produced, built, documented etc.
+- hours spent:
+- [ ] **Outputs** : What has been produced, built, documented etc.  
 
 ## Governance
 
-- [ ] Documentation
-- [ ] Organization
-- [ ] Procedures
+- hours spent:
 - [ ] **Outputs** : What has been produced, built, documented etc.
 
-## Business
+## Content & Metaverse 
 
-- [ ] Business relationships
-- [ ] Negotiation
-- [ ] Networking
+- hours spent:
 - [ ] **Outputs** : What has been produced, built, documented etc.
-
-## Product
-
-- [ ] Design
-- [ ] Copy
-- [ ] Planning
-- [ ] **Outputs** : What has been produced, built, documented etc.
-
-## Creative - Art
-
-- [ ] Product Design
-- [ ] Video / Film
-- [ ] Artwork
-- [ ] Art curation
-- [ ] Artist outreach
-- [ ] **Outputs** : What has been produced, built, documented etc.
-
+  
 ## Intangible work
-
+- [ ] Onboarding Artists
 - [ ] Greeting new members
 - [ ] Mentoring
 - [ ] Social / Emotional Support
@@ -90,21 +59,23 @@ Each work area will be divided into appropriate categories (e.g. Code, UX etc.) 
 
 ## Group
 
-After the survey each contribution is assessed for due diligence by the appropriate work area Group - to confirm that there is agreement that the work took place etc.
-
-## ACO
-
-After the survey - intangibles are voted upon per member by the ACO.
+After the survey each contribution is assessed for due diligence by members of the appropriate space work squad - to confirm that there is agreement that the work took place etc.
 
 # Reward and evaluation
 
-Once the above process is completed a member may choose either to be awarded - 
+Once the above process is completed a member may choose either or both to be awarded - 
 
-- [ ] ADA per day / hour = Total *
+- [ ] ADA 
 - [ ] A recognition Token that simply records the above contribution.
 
+# Cost & Remuneration Calculation
+For now we need to calculate manually, this will be upgraded by end of December.
+  - [hours worked] * [local hourly rate] = work remuneration
+  - other expenses: (please attach invoices)
+  - Total amount = work remuneration + other expenses
+The ADA/EUR exchange rate will be calculated before funds are distributed
 
-## Autonomous Creator Organisation (ACO) - Contribution-Survey
+## SeretDecks DisCo - Contribution-Survey
 
 **The key approach is to capture contributions first and assess value last.** 
   Detailed Expalanation below
@@ -115,7 +86,7 @@ A contribution led model either tracks or audits ACO member contributions first.
 
 ## Identity
 
-**This survey encourages ACO members to identify themselves as it provides a record of their contribution.**
+**This survey encourages DisCo members to identify themselves as it provides a record of their contribution.**
 
 However an anon ID option should be available and peer reviewed per work area.
 
