@@ -8,14 +8,14 @@ assignees: ''
 ---
 
 ## SecretDecks DisCo - Contribution-Survey
-[Detailed Expalanation below]
+[Detailed Explanation below]
   
 ## General Information
 
 This provides an overall summary or context of a member, when they became involved and how many days they have worked.
 This is supplemented with a contribution vote by peers to capture the more intangible contribution a member has made. 
 
-- Date joined ACO: [Month/Day/Year]
+- Date joined SecretDecks: [Month/Day/Year]
 - Hours worked (this month): [00 Hours]
 - Local hourly rate in USD: [0 $]  
 - [ ] Contribution vote: [@ mention members to review your contributions]
@@ -75,7 +75,7 @@ For now we need to calculate manually, this will be upgraded by end of December.
   - Total amount = work remuneration + other expenses
 The ADA/EUR exchange rate will be calculated before funds are distributed
 
-## SeretDecks DisCo - Contribution-Survey
+## SecretDecks DisCo - Contribution-Survey
 
 **The key approach is to capture contributions first and assess value last.** 
   Detailed Expalanation below
