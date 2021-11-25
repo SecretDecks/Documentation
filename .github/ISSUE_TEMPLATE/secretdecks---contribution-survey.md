@@ -63,11 +63,6 @@ After the survey each contribution is assessed for due diligence by members of t
 
 # Reward and evaluation
 
-Once the above process is completed a member may choose either or both to be awarded - 
-
-- [ ] ADA 
-- [ ] A recognition Token that simply records the above contribution.
-
 # Cost & Remuneration Calculation
 For now we need to calculate manually, this will be upgraded by end of December.
   - [hours worked] * [local hourly rate] = work remuneration
@@ -75,7 +70,6 @@ For now we need to calculate manually, this will be upgraded by end of December.
   - Total amount = work remuneration + other expenses
 The ADA/EUR exchange rate will be calculated before funds are distributed
 
-## SecretDecks DisCo - Contribution-Survey
 
 **The key approach is to capture contributions first and assess value last.** 
   Detailed Expalanation below
