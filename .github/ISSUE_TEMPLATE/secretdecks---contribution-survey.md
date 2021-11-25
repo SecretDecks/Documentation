@@ -75,6 +75,12 @@ For now we need to calculate manually, this will be upgraded by end of December.
   - Total amount = work remuneration + other expenses
 The ADA/EUR exchange rate will be calculated before funds are distributed
 
+## Pro bono & livelihoos ratio
+**how much % of your contribution is pro-bono and how much livelihood?**
+  - [ ] 100 % pro-bono
+  - [ ] 100 % livelihood
+  - [ ] at least: ___ % livelihood
+  
 ## SeretDecks DisCo - Contribution-Survey
 
 **The key approach is to capture contributions first and assess value last.** 
