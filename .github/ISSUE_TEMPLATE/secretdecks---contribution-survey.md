@@ -70,6 +70,13 @@ For now we need to calculate manually, this will be upgraded by end of December.
   - Total amount = work remuneration + other expenses
 The ADA/EUR exchange rate will be calculated before funds are distributed
 
+## Pro-bono & livelihood ratio
+Pro-Bono work will be rewarded with a reputation token, that have exclusive contributor NFT drops as utility.
+Livelihood work will be remunerated with an hourly rate paid in ADA.
+**how much % of your contribution is pro-bono and how much livelihood?**
+  - [ ] 100 % pro-bono
+  - [ ] 100 % livelihood
+  - [ ] at least: ___ % livelihood
 
 **The key approach is to capture contributions first and assess value last.** 
   Detailed Expalanation below
