@@ -2,25 +2,24 @@
 name: Discord Voting Report
 about: In order for a poll or voting to become valid it needs to have an approved
   report
-title: "[Date]-[VotingReport]-[Channel]"
+title: "[Voting or Poll Report] - [Vote/Poll Title] - [Date]"
 labels: Report
 assignees: ''
 
 ---
 
-# Discord Voting
+# Discord Voting Link
 *insert discord message link to poll here*
 
 ## Type
+*Please select one and delete others*
 - [ ] quick poll (30 min max)
 - [ ] poll (72h max)
 - [ ] voting (1 week max)
 
-## Date, Time, Channel
+## Date, Time
 - *day month year* 
-- *am/pm UTC* 
-- *#discord-channel-name*
-
+- *start: am/pm UTC* | *end: am/pm UTC* 
 
 ## Question
 *insert the question asked*
