@@ -64,14 +64,14 @@ After the survey each contribution is assessed for due diligence by members of t
 # Reward and evaluation
 
 # Cost & Remuneration Calculation
-For now we need to calculate manually, this will be upgraded by end of December.
+**For now we need to calculate manually, this will be upgraded by end of December.**
   - [hours worked] * [local hourly rate] = work remuneration
   - other expenses: (please attach invoices)
   - Total amount = work remuneration + other expenses
 The ADA/EUR exchange rate will be calculated before funds are distributed
 
 ## Pro-bono & livelihood ratio
-Pro-Bono work will be rewarded with a reputation token, that have exclusive contributor NFT drops as utility.
+Pro-Bono work will be rewarded with a reputation token, that has exclusive contributor NFT drops as utility.
 Livelihood work will be remunerated with an hourly rate paid in ADA.
 **how much % of your contribution is pro-bono and how much livelihood?**
   - [ ] 100 % pro-bono
@@ -83,7 +83,7 @@ Livelihood work will be remunerated with an hourly rate paid in ADA.
 
 Why ? Because value led models typically dictate the nature of contributions e.g. a financial incentive contribution model will tend to favor immediate returns, an equal share of rewards upfront will penalize those who have contributed more than others etc.
 
-A contribution led model either tracks or audits ACO member contributions first. Then rewards (in ADA) or recognition (in a Token) are applied to the contribution data afterwards.
+A contribution led model either tracks or audits DisCo member contributions first. Then rewards (in ADA) or recognition (in a Token) are applied to the contribution data afterwards.
 
 ## Identity
 
