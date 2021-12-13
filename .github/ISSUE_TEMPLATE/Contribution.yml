@@ -3,73 +3,154 @@ description: A survey to asses contribution by individuals to the autonomous org
 title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: [Contribution Survey]
 body:
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this Contribution Survey.
-- type: input
-  id: contact
-  attributes:
-    label: Contact Details
-    description: How can we get in touch with you if we need more info?
-    placeholder: ex. email@example.com
-  validations:
-    required: false
-- type: dropdown
-  id: contributer
-  attributes:
-    label: Contributer
-    multiple: false
-    options:
-    - Dan
-    - Tyler
-    - Heather
-    - Stephen
-- type: input
-  id: terms
-  attributes:
-    label: General Information
-    description: This provides an overall summary or context of a member, when they became involved and how many days they have worked. This could be supplemented with a contribution vote by peers to capture the more intangible contribution a member has made.
-    options:
-    - label:  Date joined ACO - [Day/Month/Year]
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Contribution Survey.
+
+# Overview
+  - type: input
+    id: date-joined
+    attributes:
+      label: Date Joined ACO
+      description: (Month/Day/Year)
+      placeholder: Ex. 08/21/2020
+    validations:
       required: true
-    - label: Days / Hours worked overall - [00 Days/Hours]
+  - type: input
+    id: hours-worked
+    attributes:
+      label: Hours Worked (This Month)
+    validations:
       required: true
-    - label: Cost of contribution (from member perspective) - [$ 0]
+  - type: input
+    id: hourly-rate
+    attributes:
+      label: Local Hourly Rate
+    validations:
       required: true
-      
-- type: dropdown
-  id: vote
-  attributes:
-    label: Contribution vote
-    description: Please select colleagues to confirm your contribution
-    required: true
-    multiple: true
-    options:
-    - DanM3rcurius
-    - Tyler
-    - Heather
-    - Stephen
-    - Tamagit
-      
-- type: checkboxes
-  id: Development
-  attributes:
-    label: Development
-    description:  Each work area will be divided into appropriate categories (e.g. Code, UX etc.) and be accompanied with an "Outputs" section where members can record what they have produced, built, documented etc.
-    options:
-    - label: Code
+  - type: input
+    id: other-expenses
+    attributes:
+      label: Other Expenses
+    validations:
       required: false
-    - label: UX
+  - type: input
+    id: total-cost
+    attributes:
+      label: Total Cost of Contribution
+      description: in €, this month
+    validations:
+      required: true
+  - type: dropdown
+    id: peer-review
+    attributes:
+      label: Contribution Peer Review
+      description: Select team member to review your constributions
+      options:
+        - Dan
+        - Tyler
+        - Heather
+        - Stephen
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "***"
+
+# Teams (Teamworkspaces) contributed to
+  - type: checkboxes
+    id: teams
+    attributes:
+      label: Teams (Teamworkspaces) contributed to
+      options:
+        - label: Website
+        - label: Governance
+        - label: Content & Metaverse
+  - type: input
+    id: output
+    attributes:
+      label: Output
+      description: What has been produced, built, or documented etc.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "***"
+
+# Intangibles
+  - type: checkboxes
+    id: intangibles
+    attributes:
+      label: Intangibles
+      options:
+        - label: Greeting new members
+        - label: Mentoring
+        - label: Social / Emotional Support
+        - label: Communicating news and ideas in Discord
+
+  - type: markdown
+    attributes:
+      value: "***"
+
+# Team external work
+  - type: input
+    id: external-work
+    attributes:
+      label: Team External Work
+      description: All items that are not Website, Governance, or Content & Metaverse
+    validations:
       required: false
-    - label: Test
+
+  - type: markdown
+    attributes:
+      value: "***"
+
+# Cost & Remuneration Calculation
+  - type: markdown
+    attributes:
+      value: "## Cost & Remuneration Calculation"
+  - type: input
+    id: hours-worked-calc
+    attributes:
+      label: Hours Worked (This Month)
+      placeholder: Copy from above
+    validations:
+      required: true
+  - type: input
+    id: hourly-rate-calc
+    attributes:
+      label: Local Hourly Rate
+      placeholder: Copy from above
+    validations:
+      required: true
+  - type: textarea
+    id: other-expenses-calc
+    attributes:
+      label: Other Expenses
+      description: Please attach invoices
+    validations:
       required: false
-    - label: Support
-      required: false
-- type: textarea
-  id: zzzz
-  attributes:
-    label: Outputs 
-    placeholder: What has been produced, built, documented etc.
-    render : text
- 
+  - type: input
+    id: total-costs
+    attributes:
+      label: Total Costs
+      description: (hours worked * local hourly rate) + other expenses
+    validations:
+      required: true
+  - type: input
+    id: exchange-rate
+    attributes:
+      label: ADA/EUR Exchange Rate
+      description: At time of contribution survey creation
+    validations:
+      required: true
+  - type: input
+    id: total-remunerations
+    attributes:
+      label: Total Remunerations (ADA)
+      description: Total Costs / ADAEUR exchange rate
+    validations:
+      required: true
