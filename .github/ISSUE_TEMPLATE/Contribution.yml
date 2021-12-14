@@ -73,9 +73,9 @@ body:
         - label: Social / Emotional Support
         - label: Communicating news and ideas in Discord
   - type: input
-    id: intangible (felt) outputs
+    id: intangible felt outputs
     attributes:
-      label: (felt) Output
+      label: felt Output
       description: What output was felt?
     validations:
       required: false
