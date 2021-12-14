@@ -1,6 +1,6 @@
 name: Prototype Contribution Survey Form
 description: A survey to asses contribution by individuals to the autonomous organisation or SecretDecks directly
-title: "year(number)-month(number)-your-name-SecretDecks-ContributionSurvey"
+title: "<year(number)>-<month(number)>-<your-name>-SecretDecks-ContributionSurvey"
 labels: [Contribution Survey]
 body:
   - type: markdown
@@ -54,7 +54,7 @@ body:
     attributes:
       label: Output
       description: What has been produced, built, or documented etc. 
-      placeholder: Ex. list GitHub issues
+      placeholder: Ex. list GitHub issues by #
     validations:
       required: true
 
@@ -73,9 +73,9 @@ body:
         - label: Social / Emotional Support
         - label: Communicating news and ideas in Discord
   - type: input
-    id: intangible felt outputs
+    id: intangible-output
     attributes:
-      label: felt Output
+      label: (felt) Output
       description: What output was felt?
     validations:
       required: false
