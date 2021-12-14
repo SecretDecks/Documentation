@@ -12,7 +12,7 @@ body:
   - type: input
     id: date-joined
     attributes:
-      label: Date Joined ACO
+      label: Date Joined SecretDecks
       description: (Month/Day/Year)
       placeholder: Ex. 08/21/2020
     validations:
@@ -21,25 +21,6 @@ body:
     id: hours-worked
     attributes:
       label: Hours Worked (This Month)
-    validations:
-      required: true
-  - type: input
-    id: hourly-rate
-    attributes:
-      label: Local Hourly Rate
-    validations:
-      required: true
-  - type: input
-    id: other-expenses
-    attributes:
-      label: Other Expenses
-    validations:
-      required: false
-  - type: input
-    id: total-cost
-    attributes:
-      label: Total Cost of Contribution
-      description: in €, this month
     validations:
       required: true
   - type: dropdown
@@ -72,7 +53,8 @@ body:
     id: output
     attributes:
       label: Output
-      description: What has been produced, built, or documented etc.
+      description: What has been produced, built, or documented etc. 
+      placeholder: Ex. list GitHub issues by #
     validations:
       required: true
 
@@ -90,6 +72,14 @@ body:
         - label: Mentoring
         - label: Social / Emotional Support
         - label: Communicating news and ideas in Discord
+  - type: input
+    id: intangible-output
+    attributes:
+      label: (felt) Output
+      description: What output was felt?
+    validations:
+      required: false
+
 
   - type: markdown
     attributes:
@@ -116,20 +106,20 @@ body:
     id: hours-worked-calc
     attributes:
       label: Hours Worked (This Month)
-      placeholder: Copy from above
+      placeholder: Ex. 42h
     validations:
       required: true
   - type: input
     id: hourly-rate-calc
     attributes:
-      label: Local Hourly Rate
-      placeholder: Copy from above
+      label: Local Hourly Rate (USD)
+      placeholder: Ex. 55/h
     validations:
       required: true
   - type: textarea
     id: other-expenses-calc
     attributes:
-      label: Other Expenses
+      label: Other Expenses (USD)
       description: Please attach invoices
     validations:
       required: false
@@ -143,10 +133,10 @@ body:
   - type: input
     id: exchange-rate
     attributes:
-      label: ADA/EUR Exchange Rate
-      description: At time of contribution survey creation
+      label: ADA/USD Exchange Rate
+      description: Calculated shortly before Remuneration Event
     validations:
-      required: true
+      required: false
   - type: input
     id: total-remunerations
     attributes:
