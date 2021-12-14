@@ -54,7 +54,7 @@ body:
     attributes:
       label: Output
       description: What has been produced, built, or documented etc. 
-      placeholder: Ex. list GitHub issues by #
+      placeholder: Ex. list GitHub issues
     validations:
       required: true
 
