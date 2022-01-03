@@ -1,39 +1,42 @@
 *Copied from [here](https://github.com/DanM3rcurius/DAO-Open-Source/edit/main/Contribute.md)*
 
-/* CONTRIBUTE */
+> This is the contribute.md of our project. Great to have you here. Here are a few ways you can help make this project better!
 
-This is the contribute.md of our project. Great to have you here. Here are a few ways you can help make this project better!
-
-# Contribute
-- ideas, new content or proposals start off in Discord (as "Thread") or in Github (as "Discussion") and then flow as follows:
-- 
+## Contribute Flow
+Ideas, new content or proposals start off in Discord (as "Thread") or in Github (as "Discussion") and then flow as follows:
+ 
 ![Content Contribution flow](https://user-images.githubusercontent.com/80257662/133680709-d087964e-c951-44e7-b984-f6fed778c3d6.png)
 
 ![idea-or-proposal-flow](https://user-images.githubusercontent.com/80257662/133680801-13af209b-6231-49e4-87b7-55ef64e36c4f.png)
 
 
+## Contribution Tracking
 
-## Contribution tracking
-- intangible contributions are tracked in Discord via emojis
+### Intangible Contributions 
+- are tracked in Discord via emojis
 - this is done via SourceCred
 - the following emojis are generating Can-D via SourceCred
-   - -1 point ![Screenshot 2021-09-06 at 14 14 14](https://user-images.githubusercontent.com/80257662/132551430-bb58a98a-7854-4cfe-9451-51447a1c41d4.png)
-   - 1 point ![Screenshot 2021-09-06 at 14 14 06](https://user-images.githubusercontent.com/80257662/132550780-a1f78b59-5360-47d3-97a7-b7ddbd3fcfcd.png)
-   - 2 points ![Screenshot 2021-09-06 at 14 14 24](https://user-images.githubusercontent.com/80257662/132551320-789a1b82-2afc-44c3-925f-91307656ef42.png)
-   - 3 points ![Screenshot 2021-09-06 at 14 14 30](https://user-images.githubusercontent.com/80257662/132551351-453697c6-98cf-49a5-8983-c6366330fbe2.png)
-   - 4 points ![Screenshot 2021-09-06 at 14 14 38](https://user-images.githubusercontent.com/80257662/132551407-8ecc64b0-c9a5-450c-86a0-955c06c6f1f6.png)
+   - -1 point:![Screenshot 2021-09-06 at 14 14 14](https://user-images.githubusercontent.com/80257662/132551430-bb58a98a-7854-4cfe-9451-51447a1c41d4.png)
+   - 2 points:![Screenshot 2021-09-06 at 14 14 06](https://user-images.githubusercontent.com/80257662/132550780-a1f78b59-5360-47d3-97a7-b7ddbd3fcfcd.png)
+   - 3 points:![Screenshot 2021-09-06 at 14 14 24](https://user-images.githubusercontent.com/80257662/132551320-789a1b82-2afc-44c3-925f-91307656ef42.png)
+   - 4 points:![Screenshot 2021-09-06 at 14 14 30](https://user-images.githubusercontent.com/80257662/132551351-453697c6-98cf-49a5-8983-c6366330fbe2.png)
+   - 5 points:![Screenshot 2021-09-06 at 14 14 38](https://user-images.githubusercontent.com/80257662/132551407-8ecc64b0-c9a5-450c-86a0-955c06c6f1f6.png)
+   - 1 point: all others (except 💩 -1)
 - activity in our GitHub repositories and the Arcana GitBook is tracked as well
 - SourceCred distributes the community currency Can-D
-- All core members fill out a monthly contribution survey to document and validate their input
+-
+### Tangible Contributions
+All core members fill out a [monthly contribution survey](https://github.com/SecretDecks/Documentation/issues/new?assignees=&labels=Contribution+Survey&template=ContributionSurvey.yml&title=year%28number%29-month%28number%29-your-name-SecretDecks-ContributionSurvey) to document and validate their input
 
 ## Team members
 
 - @DanM3rcurius (copywriting, orga & planning, product design)
-- @stephen-rowan (documentation, QA, orga & planning)
+- @stephen-rowan (documentation, QA, orga & planning oversight)
 - @evolayak (copywriting, editing)
 - @wlstylr (orga & planning, product design, UX)
-- @tamagit80 (IT, front-end)
+- @Pythag0rean (Talentscout, governance & DisCoTec)
 
+--> Find out how to join & Level up [HERE](https://secretdecks.gitbook.io/catalyst-proposals/v/fund-6-proposals/documentation/how-we-do-stuff)
 
 ## Learn & listen
 
@@ -44,7 +47,14 @@ This section includes ways to get started with your open source project. Include
 * [Blog](https://medium.com/@secretdecks)         
 * Anything else: see [Website](www.secretdecks.com)
 
-# How we vote
+# Project Boards (ZenHub)
+
+### [Metaverse Board](https://app.zenhub.com/workspaces/secretdecks-metaverse-615413e56a2e7e0012d7f67b/board?repos=388480352,365693936,373318695)
+
+### [Governance Board](https://app.zenhub.com/workspaces/governance-616fcf3d74c8bd0014baf6db/board?repos=364902835,388480352,369747231)
+
+
+# How we vote & enact change
 
 - Any core member can create a poll
 - Before a poll can be created in Discord it has to manually receive two peer approvals. A github issue [has to be raised](https://github.com/SecretDecks/Documentation/issues/new/choose),which gives a short summary of the poll and requests a peer review. A template for the voting report can be found [HERE](https://github.com/SecretDecks/Documentation/issues/new/choose)
@@ -53,11 +63,7 @@ This section includes ways to get started with your open source project. Include
 - Poll answers & results need to be documented in the issue raised beforehand and be approved by two peers.
 - Any change management needs to reference the issue in GitHub when creating additional items like discussions or other issues.
 
-
-
-
-# SECTION BELOW in progress
-## Adding new features
+# Adding new features
 
 This section includes advice on how to build new features for the project & what kind of process it includes. 
 
@@ -72,31 +78,10 @@ This section includes advice on how to build new features for the project & what
 Don’t get discouraged! We estimate that the response time from the
 maintainers is around: **24h**
 
-# Bug triage
 
-This sections explains how bug triaging is done for your project. Help beginners by including examples to good bug reports and providing them questions they should look to answer. 
+###
 
-* You can help report bugs by filing them [here](https://github.com/SecretDecks/Documentation/issues) 
-* You can look through the existing bugs [here](https://github.com/SecretDecks/Documentation/issues) 
-
-* You can help us diagnose and fix existing bugs by asking and providing answers for the following:
-
-  * Is the bug reproducible as explained?   
-  * Is it reproducible in other environments (for instance, on different browsers or devices)?   
-  * Are the steps to reproduce the bug clear? If not, can you describe how you might reproduce it?  
-  * What tags should the bug have?  
-  * Is this bug something you have run into? Would you appreciate it being looked into faster?  
-
-* You can close fixed bugs by testing old tickets to see if they are still happening.
-* You can update our changelog here: **TBD**
-* You can remove duplicate bug reports by:closing them as duplicates
-
-# Beta testing
-
-This section explains if your project needs beta testing. Explain why early releases require heavy testing and how they can help with specially across browsers and on different hardware. 
-
-* For our project you can find the roadmap and features that require
-testing from here: **TBD**
+# SECTION BELOW in progress
 
 # Translations
 
@@ -124,7 +109,34 @@ showing what others have built.
 * Write about other people’s projects based on this project. Show how
 it’s used in daily life. Take screenshots and make videos!
 
+
+# Beta testing
+
+This section explains if your project needs beta testing. Explain why early releases require heavy testing and how they can help with specially across browsers and on different hardware. 
+
+* For our project you can find the roadmap and features that require
+testing from here: **TBD**
+
 # Your first bugfix
 This section should help a person get started with their very first bug fix and thinking through the problem.
 
 * If you have further questions, contact: @DanM3rcurius
+
+# Bug triage
+
+This sections explains how bug triaging is done for your project. Help beginners by including examples to good bug reports and providing them questions they should look to answer. 
+
+* You can help report bugs by filing them [here](https://github.com/SecretDecks/Documentation/issues) 
+* You can look through the existing bugs [here](https://github.com/SecretDecks/Documentation/issues) 
+
+* You can help us diagnose and fix existing bugs by asking and providing answers for the following:
+
+  * Is the bug reproducible as explained?   
+  * Is it reproducible in other environments (for instance, on different browsers or devices)?   
+  * Are the steps to reproduce the bug clear? If not, can you describe how you might reproduce it?  
+  * What tags should the bug have?  
+  * Is this bug something you have run into? Would you appreciate it being looked into faster?  
+
+* You can close fixed bugs by testing old tickets to see if they are still happening.
+* You can update our changelog here: **TBD**
+* You can remove duplicate bug reports by:closing them as duplicates
