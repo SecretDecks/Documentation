@@ -143,4 +143,4 @@ body:
       label: Total Remunerations (ADA)
       description: Total Costs / ADAEUR exchange rate
     validations:
-      required: true
+      required: false
