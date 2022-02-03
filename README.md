@@ -8,6 +8,8 @@
 SecretDecks is the soul of the distributed cooperative (DisCo) we're currently building. Like a brand to a company, it generates value external to the inherent value of the organisation and can thus help to sustain and nourish it in a transcendental way.
 [➡️ Read more in our Arcana GitBook](https://secretdecks.gitbook.io/arcana/introduction/who-and-what-is-secretdecks)
 
+#### Currently all our funding comes from the Cardano Catalyst Community. Check out our [Proposals here](https://secretdecks.gitbook.io/catalyst-proposals/).
+
 ## Why is SecretDecks®?
 SecretDecks® is acting as the seed catalysing the emergence of a distributed cooperative, DisCo short. 
 
