@@ -46,4 +46,4 @@ Talk about ideas, discuss issues, raise questions and introduce your Self [here]
 
 [3. Mindfulness Policy](https://github.com/SecretDecks/Documentation/blob/main/Mindfulness-Policy.md)
 
-[4. Contribution Survey Template](https://github.com/SecretDecks/Documentation/blob/main/Template-Contribution-Survey.md)
+[4. Contribution Survey Template](https://github.com/SecretDecks/Documentation/blob/main/Template-Contribution-Survey.md)-
