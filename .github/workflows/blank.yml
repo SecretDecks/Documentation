@@ -24,7 +24,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: imjohnbo/workflow-reports-action@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.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 }}
         with:
           owner: SecretDecks-org
     
