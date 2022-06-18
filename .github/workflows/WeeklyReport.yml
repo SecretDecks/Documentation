@@ -2,8 +2,6 @@ name: Activity Report
 on:
   schedule:
     - cron: '0 6 * * 0' # At 06:00 on Sunday
-      # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 jobs:
   run:
     runs-on: ubuntu-latest
