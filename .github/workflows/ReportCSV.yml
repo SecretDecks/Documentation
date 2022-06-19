@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Analyze User Activity
+
 
 
 # Controls when the workflow will run
@@ -22,9 +22,12 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
+    
     steps:
+       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: peter-murray/inactive-users-action@v1
+        id: analyze_user_activity
         with:
          token: ${{ secrets.GITHUB_TOKEN }}
          organization: SecretDecks
@@ -33,7 +36,7 @@ jobs:
         with:
          name: reports
          path: |
-           ${{ steps.analyze_user_activity.outputDir.report_csv }}
+           ${{ steps.analyze_user_activity.output.report_csv }}
 
   
    
