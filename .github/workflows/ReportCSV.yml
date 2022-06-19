@@ -25,10 +25,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: peter-murray/inactive-users-action@v1
-      - uses: actions/upload-artifact@v2
         with:
          token: ${{ secrets.GITHUB_TOKEN }}
          organization: octodemo
+      - uses: actions/upload-artifact@v2
+        with:
          name: reports
          path: |
            ${{ steps.analyze_user_activity.outputs.report_csv }}
