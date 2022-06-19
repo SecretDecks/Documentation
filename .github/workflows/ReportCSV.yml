@@ -26,14 +26,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: peter-murray/inactive-users-action@v1
         with:
-         token: ${{ secrets.GITHUB_TOKEN }}
-         organization: octodemo
+         token: ${{ secrets.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 }}
+         organization: SecretDecks
          outputDir: Documentation/.github/workflows/
       - uses: actions/upload-artifact@v2
         with:
          name: reports
          path: |
-           ${{ steps.analyze_user_activity.outputs.report_csv }}
+           ${{ steps.analyze_user_activity.outputDir.report_csv }}
 
   
    
