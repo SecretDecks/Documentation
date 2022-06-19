@@ -26,7 +26,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: peter-murray/inactive-users-action@v1
         with:
-         token: ${{ secrets.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 }}
+         token: ${{ secrets.GITHUB_TOKEN }}
          organization: SecretDecks
          outputDir: Documentation/.github/workflows/
       - uses: actions/upload-artifact@v2
