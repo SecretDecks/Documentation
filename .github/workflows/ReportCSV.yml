@@ -32,7 +32,7 @@ jobs:
         with:
          name: reports
          path: |
-           ${{ /home/runner/work/Documentation/Documentation/organization_user_activity.csv }}
+           ${{ /home/runner/work/Documentation/Documentation/ }}
 
   
    
