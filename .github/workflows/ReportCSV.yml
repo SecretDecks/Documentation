@@ -28,6 +28,7 @@ jobs:
         with:
          token: ${{ secrets.GITHUB_TOKEN }}
          organization: octodemo
+         outputDir: Documentation/.github/workflows/
       - uses: actions/upload-artifact@v2
         with:
          name: reports
