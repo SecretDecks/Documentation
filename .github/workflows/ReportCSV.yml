@@ -36,8 +36,8 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
          name: reports
-         path: |
-           ${{ steps.analyze_user_activity.output.report_csv }}
+         path: organization_user_activity.csv
+          
 
   
    
