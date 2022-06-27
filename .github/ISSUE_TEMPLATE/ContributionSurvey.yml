@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this Contribution Survey.
+        Thanks for taking the time to fill out this Contribution Survey. Further down You'll be asked to specify your Pro-Bono ratio.
+        Pro Bono work will be rewarded with a reputation token, with exclusive contributor NFT drops as utility. Livelihood work will be remunerated with an hourly rate paid in ADA.
 
 # Overview
   - type: input
@@ -116,6 +117,13 @@ body:
       placeholder: Ex. 55/h
     validations:
       required: true
+  - type: input
+    id: pro-bono
+    attributes:
+      label: How much % of your contribution is pro-bono?
+      placeholder: Ex. 50%
+    validations:
+      required: true    
   - type: textarea
     id: other-expenses-calc
     attributes:
