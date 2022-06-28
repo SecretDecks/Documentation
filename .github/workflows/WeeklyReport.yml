@@ -1,7 +1,7 @@
 name: Activity Report
 on:
   schedule:
-    - cron: '*/5 * * * *' # At every 5 
+    - cron: '0 */6 * * 0' # At every 6th hour
 jobs:
   run:
     runs-on: ubuntu-latest
