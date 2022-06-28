@@ -1,0 +1,20 @@
+name: Activity Report
+on:
+  schedule:
+    - cron: '0 2 28 6 *' # Once a Yr on 6/28 
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/activity-report@v1.1.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          publish_issues: true
+          publish_top_liked_issues: 3
+          publish_top_hot_issues: 3
+          publish_pull_requests: true
+          publish_contributors: true
+          publish_stargazers: true
+          publish_commits: true
+          publish_releases: true
+          add_labels: "Annual-report"
