@@ -17,3 +17,4 @@ jobs:
           publish_stargazers: true
           publish_commits: true
           publish_releases: true
+          add_labels: "Weekly-report"
