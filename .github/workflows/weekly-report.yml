@@ -1,7 +1,7 @@
 name: Activity Report
 on:
   schedule:
-    - cron: '0/30 * * * *' # every 30 minutes-testing.
+    - cron: '0 0 * * 1' # Monday.
 jobs:
   run:
     runs-on: ubuntu-latest
