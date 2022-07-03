@@ -1,7 +1,7 @@
 name: Activity Report
 on:
   schedule:
-    - cron: '0 8 * * 0' # At 08:00 on Sunday.
+    - cron: '0 9 * * 0' # At 08:00 on Sunday.
 jobs:
   run:
     runs-on: ubuntu-latest
