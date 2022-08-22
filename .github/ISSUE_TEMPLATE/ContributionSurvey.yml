@@ -31,9 +31,9 @@ body:
       description: Select team member to review your constributions
       options:
         - Dan
-        - Tyler
+        - D.Garey
+        - Quazar
         - Heather
-        - Stephen
     validations:
       required: true
 
