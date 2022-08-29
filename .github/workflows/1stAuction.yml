@@ -33,9 +33,8 @@ jobs:
         uses: UnlyEd/github-action-store-variable@v2.1.0
         with:
           variables: var
-
-      - name: commit
-        run: |
+        
+          run: |
            git add test.txt
            git commit -m '{{var}}' --allow-empty
            git push -u origin main 
