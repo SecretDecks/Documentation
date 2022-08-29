@@ -27,12 +27,7 @@ jobs:
       - uses: UnlyEd/github-action-store-variable@v2.1.0
         with: 
           variables: var
-      - uses: JasonEtco/create-an-issue@v2
-        env:
-             id: create-issue
-             run: |
-               'echo current bid is {{var}}'
-          
+      
         
  
 
