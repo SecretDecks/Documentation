@@ -25,6 +25,6 @@ jobs:
         run: |
            git init
            git add test.txt
-           git commit -m 'message' --allow-empty
-           git push -u origin SecretDecks
+           git commit -m 'initial commit' --allow-empty
+           git push -u origin master
 
