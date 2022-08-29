@@ -1,0 +1,12 @@
+{
+  "address": "addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu",
+  "amount": [
+    {
+      "unit": "lovelace",
+      "quantity": 1.2
+    }
+  ],
+  "stake_address": null,
+  "type": "shelley",
+  "script": false
+}
