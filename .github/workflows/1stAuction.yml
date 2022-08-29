@@ -23,7 +23,7 @@ jobs:
           # Persist (store) our MAGIC_NUMBER ENV variable into our store, for the next jobs
           variables: |
             var=${{ env.var }}
-            run: |
+          run: |
             echo the current bid is {{var.env}}
             
  
