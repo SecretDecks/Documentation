@@ -36,8 +36,6 @@ jobs:
 
       - name: commit
         run: |
-           git show-ref
-           git init
            git add test.txt
            git commit -m '$var' 
            git push -u origin main 
