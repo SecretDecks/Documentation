@@ -25,5 +25,5 @@ jobs:
         run: |
           # Stage the file, commit and push
           git add test.txt
-          git commit -m "new bid commit"
+          git commit -m "initial commit"
           git push origin master
