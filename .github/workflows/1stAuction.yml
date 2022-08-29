@@ -23,22 +23,13 @@ jobs:
           # Persist (store) our MAGIC_NUMBER ENV variable into our store, for the next jobs
           variables: |
             var=${{ env.var }}
+            run: |
+            echo the current bid is {{var.env}}
             
-      - name: setup git config
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+ 
           
-      - name: Import variable 
-        uses: UnlyEd/github-action-store-variable@v2.1.0
-        with:
-          variables: var
-        
-          run: |
-           git add test.txt
-           git commit -m '{{var}}' --allow-empty
-           git push -u origin main 
+    
+    
         
  
 
