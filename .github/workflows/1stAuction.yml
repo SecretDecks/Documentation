@@ -27,5 +27,5 @@ jobs:
            git init
            git add test.txt
            git commit -m 'message'
-           git push -u origin SecretDecks
+           git push -u origin https://github.com/SecretDecks/Documentation'
 
