@@ -37,6 +37,6 @@ jobs:
       - name: commit
         run: |
            git add test.txt
-           git commit -m 'var' 
+           git commit -m 'var' --allow-empty
            git push -u origin main 
 
