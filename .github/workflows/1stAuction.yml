@@ -36,6 +36,7 @@ jobs:
 
       - name: commit
         run: |
+           git add $GITHUB_ENV
            git add test.txt
            git commit -m '{{env.var}}' 
            git push -u origin main 
