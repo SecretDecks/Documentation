@@ -21,21 +21,18 @@ jobs:
         with:
           # Persist (store) our MAGIC_NUMBER ENV variable into our store, for the next jobs
           variables: |
-            var=${{ env.var }}
-            
-      - name: setup git config
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+            var=${{ env.var }
           
-      - name: Import variable 
-        uses: UnlyEd/github-action-store-variable@v2.1.0
-        with:
+      - name: Import variable
+      - uses: UnlyEd/github-action-store-variable@v2.1.0
+        with: 
           variables: var
+      - uses: JasonEtco/create-an-issue@v2
+        env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+             id: create-issue
+             -run: 'echo current bid is {{var}}'
+          
         
-          run: |
-           git add test.txt
-           git commit -m '{{var}}' --allow-empty
-           git push -u origin main 
+ 
 
