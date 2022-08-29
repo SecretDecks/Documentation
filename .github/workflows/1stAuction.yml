@@ -23,9 +23,8 @@ jobs:
 
       - name: commit
         run: |
-          # Stage the file, commit and push
            git init
            git add test.txt
-           git commit -m 'message'
+           git commit -m 'message' --allow-empty
            git push -u origin SecretDecks/Documentation'
 
