@@ -26,6 +26,6 @@ jobs:
            git show-ref
            git init
            git add test.txt
-           git commit -m '$var' --allow-empty
+           git commit -m "$var" --allow-empty
            git push -u origin main 
 
