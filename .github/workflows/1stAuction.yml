@@ -14,14 +14,28 @@ jobs:
            curl -H "project_id:  mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X" \
            "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' > test.txt
            var=$(cat test.txt | jq '.amount[0].quantity')
-
+           echo "var=$var" >> $GITHUB_ENV
+      
+      - name: Export variable for next jobs
+        uses: UnlyEd/github-action-store-variable@v2.1.0 
+        with:
+          # Persist (store) our MAGIC_NUMBER ENV variable into our store, for the next jobs
+          variables: |
+            var=${{ env.var }}
+            
       - name: setup git config
         run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
+          
+      - name: Import variable MAGIC_NUMBER
+        uses: UnlyEd/github-action-store-variable@v2.1.0
+        with:
+          variables: var
 
       - name: commit
+      
         run: |
            git show-ref
            git init
