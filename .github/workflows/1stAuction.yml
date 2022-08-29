@@ -24,6 +24,7 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add test.txt
-          git commit -m "initial commit"
-          git push -u origin master
+         git init
+         git add test.txt
+         git commit -m 'message'
+         git push -u origin master
