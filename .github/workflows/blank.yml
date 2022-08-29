@@ -1,0 +1,27 @@
+name: Auction Current Bid 
+on: push
+jobs:
+  date:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the branch
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: save current bid
+        run: |
+          # do some operation that changes a file in the git repo
+          ./1stAuction
+
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git add time.txt
+          git commit -m "new date commit"
+          git push origin master
