@@ -29,7 +29,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           
-      - name: Import variable MAGIC_NUMBER
+      - name: Import variable 
         uses: UnlyEd/github-action-store-variable@v2.1.0
         with:
           variables: var
@@ -37,6 +37,6 @@ jobs:
       - name: commit
         run: |
            git add test.txt
-           git commit -m '$var' 
+           git commit -m '{{env.var}}' 
            git push -u origin main 
 
