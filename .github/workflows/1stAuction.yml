@@ -14,18 +14,10 @@ jobs:
           # do some operation that changes a file in the git repo
            curl -H "project_id:  mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X" \
            "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' > test.txt
-           var=$(cat test.txt | jq '.amount[0].quantity')
-           echo "var=$var" >> $GITHUB_ENV
-      
-      - name: Export variable for next jobs
-        uses: UnlyEd/github-action-store-variable@v2.1.0 
-        with:
-          # Persist (store) our MAGIC_NUMBER ENV variable into our store, for the next jobs
-          variables: |
-            var=${{ env.var }}
-          run: |
-            echo the current bid is {{var.env}}
-            
+           cat test.txt | jq '.amount[0].quantity'
+           
+    
+          
  
           
     
