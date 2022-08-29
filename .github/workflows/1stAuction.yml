@@ -31,7 +31,8 @@ jobs:
         env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
              id: create-issue
-             -run: 'echo current bid is {{var}}'
+             run: |
+               'echo current bid is {{var}}'
           
         
  
