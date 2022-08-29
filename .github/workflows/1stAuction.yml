@@ -35,7 +35,6 @@ jobs:
           variables: var
 
       - name: commit
-      
         run: |
            git show-ref
            git init
