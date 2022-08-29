@@ -26,4 +26,4 @@ jobs:
           # Stage the file, commit and push
           git add test.txt
           git commit -m "initial commit"
-          git push origin master
+          git push -u origin master
