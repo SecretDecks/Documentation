@@ -11,7 +11,7 @@ jobs:
       - name: save current bid
         run: |
           # do some operation that changes a file in the git repo
-          ./1stAuction
+          ./1stAuctionRun.sh
 
       - name: setup git config
         run: |
@@ -22,6 +22,6 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add time.txt
-          git commit -m "new date commit"
+          git add test.txt
+          git commit -m "new bid commit"
           git push origin master
