@@ -2,7 +2,7 @@
 name: Auction Current Bid 
 on: push
 jobs:
-  date:
+  Auction:
     runs-on: ubuntu-latest
     steps:
       # Checkout the branch
