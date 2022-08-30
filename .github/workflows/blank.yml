@@ -12,7 +12,7 @@ jobs:
          contentType: "application/json"
          customHeaders: '{"project_id": "${{secrets.BLACKFROST}}"}'
      -  name: "Create issue for Bid"
-     -  uses: dacbd/create-issue-action@v1
+        uses: dacbd/create-issue-action@v1
         with:
           token: ${{ github.token }}
           title: Current Auction Bid
