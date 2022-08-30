@@ -9,7 +9,7 @@ jobs:
        with:
          url: 'https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu'
          method: 'POST'
-         customHeaders: '{project_id: mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X}'
+         customHeaders: '{"project_id": "mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X"}'
      - name: Show response
        run: |
          echo ${{ steps.Bid.outputs.response }} 
