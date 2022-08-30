@@ -12,13 +12,18 @@ jobs:
       - name: save current bid
         id: var
         run: |
-         ./.github/workflows/1stAuctionRun.sh
+          curl -H "project_id:  mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X" \
+          "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' > test.txt
+      -  name: conversion to ada
+         id: ada
+         run: |
+          cat test.txt | jq '.amount[0].quantity'
       -  name: "Create issue for Bid"
          uses: dacbd/create-issue-action@v1
          with:
           token: ${{ github.token }}
           title: _${{ steps.var.outputs }} ADA is the current bid
-          body: "jjj" 
+          body: ${{ fromJson(steps.ada.outputs.response).amount[0].quantity }} ADA is the current bid
       -  run: |
            echo ${{ steps.var.outputs }}
 
