@@ -15,7 +15,7 @@ jobs:
         uses: dacbd/create-issue-action@v1
         with:
           token: ${{ github.token }}
-          title: Current Auction Bid
+          title: ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }}
      -  run: |
          echo ${{ steps.Bid.outputs.response }}
          echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} 
