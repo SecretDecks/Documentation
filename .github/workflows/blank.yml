@@ -4,7 +4,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
      - name: Request
-       id: Current Bid
+       id: Bid
        uses: fjogeleit/http-request-action@v1
        with:
          url: 'https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu'
@@ -13,7 +13,7 @@ jobs:
          password: ${{ secrets.blackfrost }}  
      - name: Show response
        run: |
-         echo ${{ steps.Request.outputs.response }} 
+         echo ${{ steps.Bid.outputs.response }} 
         
         
       
