@@ -12,13 +12,8 @@ jobs:
       - name: save current bid
         id: var
         run: |
-          curl -H "project_id:  mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X" \
+          curl -H "project_id:  ${{ secrets.BLACKFROST }}" \
           "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity
-           
-      -  name: conversion to ada
-         id: ada
-         run: |
-          cat test.txt 
       -  name: "Create issue for Bid"
          uses: dacbd/create-issue-action@v1
          with:
