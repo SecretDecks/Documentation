@@ -23,7 +23,7 @@ jobs:
          with:
           token: ${{ github.token }}
           title: _${{ steps.var.outputs.response }} ADA is the current bid
-          body: ${{ fromJson(steps.var.outputs.response).amount[0].quantity }} ADA is the current bid
+          body: ${{ steps.ada.outputs.json).amount[0].quantity }} ADA is the current bid
      
 
     
