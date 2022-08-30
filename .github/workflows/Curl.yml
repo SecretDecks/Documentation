@@ -19,6 +19,7 @@ jobs:
      -  run: |
          echo ${{ steps.Bid.outputs.response }}
          echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} 
-        
+     - name: Adding Markdown
+       run: echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} >> $GITHUB_STEP_SUMMARY
         
       
