@@ -32,7 +32,7 @@ jobs:
          with:
           token: ${{ github.token }}
           title: ${{ env.adabid }} ADA is the current bid
-          body: ${{ steps.var.outputs.response.json }} ADA is the current bid
+          body: ${{ env.adabid }} ADA is the current bid
      
 
     
