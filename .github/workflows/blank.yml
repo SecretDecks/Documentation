@@ -1,13 +1,19 @@
+on: push
 jobs:
   deployment:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Deploy Stage
-      uses: fjogeleit/http-request-action@v1
-      with:
-        url: 'https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu'
-        method: 'POST'
-        username: ${{ secrets.blackfrost }}  
+     runs-on: ubuntu-latest
+     steps:
+     - name: Request
+       id: Current Bid
+       uses: fjogeleit/http-request-action@v1
+       with:
+         url: 'https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu'
+         method: 'POST'
+         username: project_id
+         password: ${{ secrets.blackfrost }}  
+     - name: Show response
+       run: |
+         echo ${{ steps.Request.outputs.response }} 
         
         
       
