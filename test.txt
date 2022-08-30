@@ -3,7 +3,7 @@
   "amount": [
     {
       "unit": "lovelace",
-      "quantity": 1.2
+      "quantity": 2.2
     }
   ],
   "stake_address": null,
