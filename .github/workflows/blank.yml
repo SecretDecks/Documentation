@@ -13,7 +13,7 @@ jobs:
          customHeaders: '{"project_id": "${{secrets.BLACKFROST}}"}'
      - name: Show response
        run: |
-         echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quanity }} 
+         echo ${{ fromJson(steps.Bid.outputs.response).amount }} 
         
         
       
