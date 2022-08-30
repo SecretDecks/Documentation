@@ -15,18 +15,14 @@ jobs:
           # do some operation that changes a file in the git repo
            curl -H "project_id:  mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X" \
            "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' > test.txt
-           cat test.txt | jq '.amount[0].quantity'
-      - name: setup git config
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-           
-           
-           run: |
-           git commit -m '{{ steps.var.outputs.json }}' --allow-empty
-           git push -u origin main 
-           
+      -  name: "Create issue for Bid"
+         uses: dacbd/create-issue-action@v1
+         with:
+          token: ${{ github.token }}
+          title: _${{ steps.var.outputs.response }} LOVELACE is the current bid
+      -  run: |
+           echo ${{ steps.var.outputs }}
+
     
           
  
