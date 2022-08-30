@@ -13,8 +13,8 @@ jobs:
         id: var
         run: |
           curl -H "project_id:  mainnetcPkAK17AyBxUI6KtcjY7YEbXEDKyhu6X" \
-          "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' > test.txt
-          cat test.txt 
+          "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity
+           
       -  name: conversion to ada
          id: ada
          run: |
@@ -23,7 +23,7 @@ jobs:
          uses: dacbd/create-issue-action@v1
          with:
           token: ${{ github.token }}
-          title: _${{ steps.ada.outputs.response }} ADA is the current bid
+          title: _${{ steps.var.outputs.response }} ADA is the current bid
           body: ${{ fromJson(steps.var.outputs.response).amount[0].quantity }} ADA is the current bid
      
 
