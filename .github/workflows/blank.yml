@@ -11,8 +11,13 @@ jobs:
          method: 'GET'
          contentType: "application/json"
          customHeaders: '{"project_id": "${{secrets.BLACKFROST}}"}'
-     - name: Show response
-       run: |
+     -  name: "Create issue for Bid"
+     -  uses: actions/checkout@v3
+     -  uses: dacbd/create-issue-action@v1
+        with:
+          token: ${{ github.token }}
+          title: Current Auction Bid
+     -  run: |
          echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} 
         
         
