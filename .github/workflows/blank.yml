@@ -1,0 +1,13 @@
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: 'https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu'
+        method: 'POST'
+        username: ${{ secrets.blackfrost }}  
+        
+        
+      
