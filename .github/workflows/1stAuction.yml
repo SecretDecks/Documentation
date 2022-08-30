@@ -13,12 +13,25 @@ jobs:
         id: var
         run: |
           curl -H "project_id:  ${{ secrets.BLACKFROST }}" \
-          "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" 
+          "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' > test.txt 
+          adabid=$(cat test.txt | jq '.amount[0].quantity') 
+          echo "adabid=$adabid" >> $GITHUB_ENV
+      - name: Export Variable
+        uses: UnlyEd/github-action-store-variable@v2.1.0
+        with:
+          variables: |
+            adabid=${{ env.adabid }}
+      - name: import variable
+        uses: UnlyEd/github-action-store-variable@v2.1.0
+        with:
+          variables: |
+           adabid
       -  name: "Create issue for Bid"
          uses: dacbd/create-issue-action@v1
+         
          with:
           token: ${{ github.token }}
-          title: _${{ steps.var.outputs.json }} ADA is the current bid
+          title: $adabid ADA is the current bid
           body: ${{ steps.var.outputs.response.json }} ADA is the current bid
      
 
