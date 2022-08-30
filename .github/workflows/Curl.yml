@@ -16,6 +16,7 @@ jobs:
         with:
           token: ${{ github.token }}
           title: _${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} LOVELACE is the current bid
+          body: ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} LOVELACE is the current bid
      -  run: |
          echo ${{ steps.Bid.outputs.response }}
          echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} 
