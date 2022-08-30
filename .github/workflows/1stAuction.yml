@@ -12,13 +12,13 @@ jobs:
       - name: save current bid
         id: var
         run: |
-         ./github/workflows/1stAuctionRun.sh
+         ./.github/workflows/1stAuctionRun.sh
       -  name: "Create issue for Bid"
          uses: dacbd/create-issue-action@v1
          with:
           token: ${{ github.token }}
           title: _${{ steps.var.outputs }} ADA is the current bid
-          body: 
+          body: "jjj" 
       -  run: |
            echo ${{ steps.var.outputs }}
 
