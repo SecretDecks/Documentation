@@ -15,7 +15,7 @@ jobs:
         uses: dacbd/create-issue-action@v1
         with:
           token: ${{ github.token }}
-          title: ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity|=tonumber / 1000000 }} ADA is the current bid
+          title: ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity=tonumber / 1000000 }} ADA is the current bid
      -  run: |
          echo ${{ steps.Bid.outputs.response }}
          echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} 
