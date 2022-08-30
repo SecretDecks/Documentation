@@ -17,7 +17,7 @@ jobs:
       -  name: conversion to ada
          id: ada
          run: |
-          cat test.txt | jq '.amount[0].quantity'
+          cat test.txt 
       -  name: "Create issue for Bid"
          uses: dacbd/create-issue-action@v1
          with:
