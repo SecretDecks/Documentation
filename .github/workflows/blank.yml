@@ -7,9 +7,10 @@ jobs:
        id: Bid
        uses: fjogeleit/http-request-action@v1
        with:
-         url: 'https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu'
-         data: "x-www-form-urlencoded"
+         url: 'https://cardano-mainnet.blockfrost.io/api/v0'
          method: 'POST'
+         contentType: "json"
+         files: "addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu"
          customHeaders: '{"project_id": "${{secrets.BLACKFROST}}"}'
      - name: Show response
        run: |
