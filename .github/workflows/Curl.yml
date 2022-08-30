@@ -17,6 +17,7 @@ jobs:
           token: ${{ github.token }}
           title: Current Auction Bid
      -  run: |
+         echo "${{ steps.new-issue.outputs.json }}" | jq
          echo ${{ fromJson(steps.Bid.outputs.response).amount[0].quantity }} 
         
         
