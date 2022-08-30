@@ -12,9 +12,7 @@ jobs:
       - name: save current bid
         id: var
         run: |
-
-           curl -H "project_id:  "${{secrets.BLACKFROST}}" \
-           "https://cardano-mainnet.blockfrost.io/api/v0/addresses/addr1v8avhxf9rsue8ghqxwkg6kscfxxeu97xs7sq3u4hzyccn5c7tnnnu" | jq '.amount[0].quantity|=tonumber / 1000000' 
+         ./github/workflows/1stAuctionRun.sh
       -  name: "Create issue for Bid"
          uses: dacbd/create-issue-action@v1
          with:
