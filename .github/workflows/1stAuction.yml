@@ -18,7 +18,7 @@ jobs:
          uses: dacbd/create-issue-action@v1
          with:
           token: ${{ github.token }}
-          title: _${{ steps.var.outputs.response.json }} ADA is the current bid
+          title: _${{ steps.var.outputs.json }} ADA is the current bid
           body: ${{ steps.var.outputs.response.json }} ADA is the current bid
      
 
