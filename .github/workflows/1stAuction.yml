@@ -19,7 +19,7 @@ jobs:
          uses: dacbd/create-issue-action@v1
          with:
           token: ${{ github.token }}
-          title: _${{ steps.var.outputs.response }} LOVELACE is the current bid
+          title: _${{ steps.var.outputs }} ADA is the current bid
       -  run: |
            echo ${{ steps.var.outputs }}
 
